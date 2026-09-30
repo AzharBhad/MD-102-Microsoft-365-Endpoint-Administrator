@@ -1,0 +1,40 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+    paths: ["**/*.md", ".github/workflows/link-check.yml", "lychee.toml"]
+  pull_request:
+    paths: ["**/*.md", ".github/workflows/link-check.yml", "lychee.toml"]
+  schedule:
+    # Every Monday 06:17 UTC - catches Microsoft Learn URL moves
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  relative-links:
+    # Blocking: every relative link inside the repo must resolve.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check relative links (offline)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --include-fragments=false "**/*.md"
+          fail: true
+
+  external-links:
+    # Non-blocking: Microsoft Learn restructures URLs often and rate-limits bots.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check external links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress "**/*.md"
+          fail: true

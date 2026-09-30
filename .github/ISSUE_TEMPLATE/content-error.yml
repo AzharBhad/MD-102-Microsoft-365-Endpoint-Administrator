@@ -1,0 +1,36 @@
+name: Content error
+description: Report something inaccurate, outdated, or unclear in a doc, lab, or question.
+title: "[Content]: "
+labels: ["content", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this repo accurate. **Do not paste real exam questions, tenant IDs, domains, emails, or screenshots containing personal data.**
+  - type: input
+    id: file
+    attributes:
+      label: File path
+      placeholder: 02-Manage-Maintain-Devices/docs/2.1.2-autopilot-deployment-modes.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the sentence or step and explain the issue.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Microsoft Learn source
+      description: Link to the official page that shows the correct information.
+      placeholder: https://learn.microsoft.com/...
+  - type: checkboxes
+    id: nda
+    attributes:
+      label: Exam NDA
+      options:
+        - label: This report does not contain or reference real exam content, dumps, or braindumps.
+          required: true

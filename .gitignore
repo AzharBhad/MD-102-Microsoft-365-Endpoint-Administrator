@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node (local lint runs)
+node_modules/
+
+# Never commit lab exports, logs or secrets
+*.log
+*.cab
+*.zip
+*.intunewin
+*.pfx
+*.p12
+*.cer
+*.key
+*.env
+exports/
+LabOutput/
+AutopilotHWID*.csv

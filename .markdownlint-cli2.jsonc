@@ -1,0 +1,24 @@
+{
+  // markdownlint-cli2 configuration for the MD-102 study repository
+  "config": {
+    "default": true,
+    // Long lines are expected in tables and prose
+    "MD013": false,
+    // Allow <details>, <summary>, <br>, <kbd>, <sup> for collapsible answers and badges
+    "MD033": {
+      "allowed_elements": ["details", "summary", "br", "kbd", "sup", "p", "img", "a", "div"]
+    },
+    // Repeated headings are fine when they are under different parents (Step 1, Expected result, ...)
+    "MD024": { "siblings_only": true },
+    // First line does not need to be a top-level heading (badges in README)
+    "MD041": false,
+    // Emphasis used as a pseudo-heading is intentional in some tip boxes
+    "MD036": false,
+    // Ordered lists may use sequential numbers
+    "MD029": { "style": "ordered" },
+    // Table column style is not enforced
+    "MD060": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", ".git/**"]
+}

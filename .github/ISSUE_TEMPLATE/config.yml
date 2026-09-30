@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official MD-102 study guide
+    url: https://learn.microsoft.com/credentials/certifications/resources/study-guides/md-102
+    about: The single source of truth for skills measured.
+  - name: Microsoft Q&A - Intune
+    url: https://learn.microsoft.com/answers/tags/133/microsoft-intune
+    about: Product questions not related to this repository's content.

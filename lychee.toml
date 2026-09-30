@@ -1,0 +1,24 @@
+# lychee link checker configuration
+max_concurrency = 8
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+accept = ["200..=299", "403", "429"]
+exclude_all_private = true
+exclude_mail = true
+
+# Placeholder / sign-in-required hosts that cannot be checked anonymously
+exclude = [
+  "^https?://([a-z0-9-]+\\.)?contoso\\.",
+  "^https://intune\\.microsoft\\.com",
+  "^https://entra\\.microsoft\\.com",
+  "^https://security\\.microsoft\\.com",
+  "^https://admin\\.microsoft\\.com",
+  "^https://config\\.office\\.com",
+  "^https://portal\\.azure\\.com",
+  "^https://business\\.apple\\.com",
+  "^https://play\\.google\\.com/work",
+  "^https://securitycopilot\\.microsoft\\.com",
+  "^https://go\\.microsoft\\.com/fwlink",
+  "^https://graph\\.microsoft\\.com",
+]
