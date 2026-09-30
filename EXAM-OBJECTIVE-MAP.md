@@ -8,9 +8,9 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 | Coverage | Count |
 |---|---|
 | Objectives | 83 |
-| With a doc | 45 |
-| With a lab | 45 |
-| With practice questions | 45 |
+| With a doc | 60 |
+| With a lab | 60 |
+| With practice questions | 60 |
 
 ## Domain 1 - Prepare infrastructure for devices (20–25%)
 
@@ -102,26 +102,26 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 3.1.1 | Create antivirus policies by using Microsoft Intune | **MISSING** | **MISSING** | - |
-| 3.1.2 | Create and manage disk encryption policies by using Microsoft Intune, including managing BitLocker recovery keys, configuring user self-service recovery, and monitoring encryption compliance status | **MISSING** | **MISSING** | - |
-| 3.1.3 | Create firewall policies by using Microsoft Intune | **MISSING** | **MISSING** | - |
-| 3.1.4 | Configure Attack surface reduction policies by using Microsoft Intune, including applying Zero Trust principles for endpoint protection | **MISSING** | **MISSING** | - |
-| 3.1.5 | Plan and implement security baselines by using Microsoft Intune | **MISSING** | **MISSING** | - |
-| 3.1.6 | Integrate Intune with Microsoft Defender for Endpoint, including configuring Endpoint Detection and Response (EDR) policies, investigating endpoint threats, and triaging incidents | **MISSING** | **MISSING** | - |
-| 3.1.7 | Onboard devices into Microsoft Defender for Endpoint | **MISSING** | **MISSING** | - |
-| 3.1.8 | Configure App Control for Business policies by using Microsoft Intune | **MISSING** | **MISSING** | - |
+| 3.1.1 | Create antivirus policies by using Microsoft Intune | [doc](03-Protect-Devices/docs/3.1.1-antivirus-policies.md) | [LAB-3.01](03-Protect-Devices/labs/LAB-3.01-antivirus-firewall-policies.md) | [Q3.01](06-Practice-Questions/03-protect-devices-questions.md#q301), [Q3.02](06-Practice-Questions/03-protect-devices-questions.md#q302) |
+| 3.1.2 | Create and manage disk encryption policies by using Microsoft Intune, including managing BitLocker recovery keys, configuring user self-service recovery, and monitoring encryption compliance status | [doc](03-Protect-Devices/docs/3.1.2-disk-encryption-bitlocker-filevault.md) | [LAB-3.02](03-Protect-Devices/labs/LAB-3.02-bitlocker-filevault.md) | [Q3.03](06-Practice-Questions/03-protect-devices-questions.md#q303), [Q3.04](06-Practice-Questions/03-protect-devices-questions.md#q304), [Q3.05](06-Practice-Questions/03-protect-devices-questions.md#q305) |
+| 3.1.3 | Create firewall policies by using Microsoft Intune | [doc](03-Protect-Devices/docs/3.1.3-firewall-policies.md) | [LAB-3.01](03-Protect-Devices/labs/LAB-3.01-antivirus-firewall-policies.md) | [Q3.06](06-Practice-Questions/03-protect-devices-questions.md#q306), [Q3.07](06-Practice-Questions/03-protect-devices-questions.md#q307) |
+| 3.1.4 | Configure Attack surface reduction policies by using Microsoft Intune, including applying Zero Trust principles for endpoint protection | [doc](03-Protect-Devices/docs/3.1.4-attack-surface-reduction-zero-trust.md) | [LAB-3.03](03-Protect-Devices/labs/LAB-3.03-attack-surface-reduction.md) | [Q3.08](06-Practice-Questions/03-protect-devices-questions.md#q308), [Q3.09](06-Practice-Questions/03-protect-devices-questions.md#q309), [Q3.10](06-Practice-Questions/03-protect-devices-questions.md#q310) |
+| 3.1.5 | Plan and implement security baselines by using Microsoft Intune | [doc](03-Protect-Devices/docs/3.1.5-security-baselines.md) | [LAB-3.04](03-Protect-Devices/labs/LAB-3.04-security-baselines.md) | [Q3.11](06-Practice-Questions/03-protect-devices-questions.md#q311), [Q3.12](06-Practice-Questions/03-protect-devices-questions.md#q312) |
+| 3.1.6 | Integrate Intune with Microsoft Defender for Endpoint, including configuring Endpoint Detection and Response (EDR) policies, investigating endpoint threats, and triaging incidents | [doc](03-Protect-Devices/docs/3.1.6-defender-for-endpoint-integration-edr.md) | [LAB-3.05](03-Protect-Devices/labs/LAB-3.05-defender-for-endpoint.md) | [Q3.13](06-Practice-Questions/03-protect-devices-questions.md#q313), [Q3.14](06-Practice-Questions/03-protect-devices-questions.md#q314) |
+| 3.1.7 | Onboard devices into Microsoft Defender for Endpoint | [doc](03-Protect-Devices/docs/3.1.7-onboard-defender-for-endpoint.md) | [LAB-3.05](03-Protect-Devices/labs/LAB-3.05-defender-for-endpoint.md) | [Q3.15](06-Practice-Questions/03-protect-devices-questions.md#q315), [Q3.16](06-Practice-Questions/03-protect-devices-questions.md#q316) |
+| 3.1.8 | Configure App Control for Business policies by using Microsoft Intune | [doc](03-Protect-Devices/docs/3.1.8-app-control-for-business.md) | [LAB-3.06](03-Protect-Devices/labs/LAB-3.06-app-control-for-business.md) | [Q3.17](06-Practice-Questions/03-protect-devices-questions.md#q317), [Q3.18](06-Practice-Questions/03-protect-devices-questions.md#q318) |
 
 ### 3.2 Manage device updates
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 3.2.1 | Plan for device updates by using Intune | **MISSING** | **MISSING** | - |
-| 3.2.2 | Create and manage update rings, feature updates, and quality updates for Windows devices by using Intune | **MISSING** | **MISSING** | - |
-| 3.2.3 | Implement Windows Autopatch and configure Hotpatch policies | **MISSING** | **MISSING** | - |
-| 3.2.4 | Create and manage update policies for iOS/iPadOS and macOS devices by using the Settings Catalog in Microsoft Intune | **MISSING** | **MISSING** | - |
-| 3.2.5 | Manage Android updates by using configuration profiles or firmware-over-the-air (FOTA) deployments | **MISSING** | **MISSING** | - |
-| 3.2.6 | Configure Windows client Delivery Optimization by using Intune | **MISSING** | **MISSING** | - |
-| 3.2.7 | Monitor device updates by using Intune | **MISSING** | **MISSING** | - |
+| 3.2.1 | Plan for device updates by using Intune | [doc](03-Protect-Devices/docs/3.2.1-plan-device-updates.md) | [LAB-3.07](03-Protect-Devices/labs/LAB-3.07-windows-update-rings-feature-quality.md) | [Q3.19](06-Practice-Questions/03-protect-devices-questions.md#q319) |
+| 3.2.2 | Create and manage update rings, feature updates, and quality updates for Windows devices by using Intune | [doc](03-Protect-Devices/docs/3.2.2-update-rings-feature-quality-updates.md) | [LAB-3.07](03-Protect-Devices/labs/LAB-3.07-windows-update-rings-feature-quality.md) | [Q3.19](06-Practice-Questions/03-protect-devices-questions.md#q319), [Q3.20](06-Practice-Questions/03-protect-devices-questions.md#q320) |
+| 3.2.3 | Implement Windows Autopatch and configure Hotpatch policies | [doc](03-Protect-Devices/docs/3.2.3-windows-autopatch-hotpatch.md) | [LAB-3.08](03-Protect-Devices/labs/LAB-3.08-autopatch-hotpatch.md) | [Q3.21](06-Practice-Questions/03-protect-devices-questions.md#q321), [Q3.22](06-Practice-Questions/03-protect-devices-questions.md#q322) |
+| 3.2.4 | Create and manage update policies for iOS/iPadOS and macOS devices by using the Settings Catalog in Microsoft Intune | [doc](03-Protect-Devices/docs/3.2.4-apple-update-policies-settings-catalog.md) | [LAB-3.09](03-Protect-Devices/labs/LAB-3.09-apple-android-updates.md) | [Q3.23](06-Practice-Questions/03-protect-devices-questions.md#q323) |
+| 3.2.5 | Manage Android updates by using configuration profiles or firmware-over-the-air (FOTA) deployments | [doc](03-Protect-Devices/docs/3.2.5-android-updates-fota.md) | [LAB-3.09](03-Protect-Devices/labs/LAB-3.09-apple-android-updates.md) | [Q3.24](06-Practice-Questions/03-protect-devices-questions.md#q324) |
+| 3.2.6 | Configure Windows client Delivery Optimization by using Intune | [doc](03-Protect-Devices/docs/3.2.6-delivery-optimization.md) | [LAB-3.10](03-Protect-Devices/labs/LAB-3.10-delivery-optimization-update-reports.md) | [Q3.25](06-Practice-Questions/03-protect-devices-questions.md#q325) |
+| 3.2.7 | Monitor device updates by using Intune | [doc](03-Protect-Devices/docs/3.2.7-monitor-device-updates.md) | [LAB-3.10](03-Protect-Devices/labs/LAB-3.10-delivery-optimization-update-reports.md) | [Q3.26](06-Practice-Questions/03-protect-devices-questions.md#q326) |
 
 ## Domain 4 - Manage and secure applications (15–20%)
 
