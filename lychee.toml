@@ -5,7 +5,6 @@ retry_wait_time = 5
 timeout = 30
 accept = ["200..=299", "403", "429"]
 exclude_all_private = true
-exclude_mail = true
 
 # Placeholder / sign-in-required hosts that cannot be checked anonymously
 exclude = [
