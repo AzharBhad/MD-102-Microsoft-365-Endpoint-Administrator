@@ -18,7 +18,7 @@ Study notes, hands-on labs, original practice questions and PowerShell/Microsoft
 | # | Domain | Weight |
 |---|---|---|
 | 1 | [Prepare infrastructure for devices](01-Prepare-Infrastructure/README.md) | 20-25% |
-| 2 | Manage and maintain devices | 25-30% |
+| 2 | [Manage and maintain devices](02-Manage-Maintain-Devices/README.md) | 25-30% |
 | 3 | Protect devices | 15-20% |
 | 4 | Manage and secure applications | 15-20% |
 | 5 | Optimize endpoint operations by using automation, monitoring, and reporting | 10-15% |

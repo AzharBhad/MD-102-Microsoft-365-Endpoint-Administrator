@@ -8,9 +8,9 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 | Coverage | Count |
 |---|---|
 | Objectives | 83 |
-| With a doc | 18 |
-| With a lab | 18 |
-| With practice questions | 18 |
+| With a doc | 45 |
+| With a lab | 45 |
+| With practice questions | 45 |
 
 ## Domain 1 - Prepare infrastructure for devices (20–25%)
 
@@ -53,48 +53,48 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 2.1.1 | Choose between Windows Autopilot deployment profiles and device preparation policies | **MISSING** | **MISSING** | - |
-| 2.1.2 | Choose between Windows Autopilot deployment modes, including user-driven, pre-provisioning, and self-deploying | **MISSING** | **MISSING** | - |
-| 2.1.3 | Apply a device name template by using Windows Autopilot | **MISSING** | **MISSING** | - |
-| 2.1.4 | Implement Windows client deployment by using Windows Autopilot | **MISSING** | **MISSING** | - |
-| 2.1.5 | Create an Enrollment Status Page (ESP) | **MISSING** | **MISSING** | - |
-| 2.1.6 | Plan and implement device upgrades for Windows 11 by using Intune | **MISSING** | **MISSING** | - |
-| 2.1.7 | Provision and configure Windows 365 Cloud PCs by using Intune, including provisioning policies, network connections, and image management | **MISSING** | **MISSING** | - |
-| 2.1.8 | Implement Windows Backup by using Intune | **MISSING** | **MISSING** | - |
+| 2.1.1 | Choose between Windows Autopilot deployment profiles and device preparation policies | [doc](02-Manage-Maintain-Devices/docs/2.1.1-autopilot-profiles-vs-device-preparation.md) | [LAB-2.02](02-Manage-Maintain-Devices/labs/LAB-2.02-autopilot-device-preparation.md) | [Q2.01](06-Practice-Questions/02-manage-maintain-devices-questions.md#q201), [Q2.02](06-Practice-Questions/02-manage-maintain-devices-questions.md#q202), [Q2.03](06-Practice-Questions/02-manage-maintain-devices-questions.md#q203) |
+| 2.1.2 | Choose between Windows Autopilot deployment modes, including user-driven, pre-provisioning, and self-deploying | [doc](02-Manage-Maintain-Devices/docs/2.1.2-autopilot-deployment-modes.md) | [LAB-2.01](02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md), [LAB-2.03](02-Manage-Maintain-Devices/labs/LAB-2.03-autopilot-preprovisioning-self-deploying.md) | [Q2.04](06-Practice-Questions/02-manage-maintain-devices-questions.md#q204), [Q2.05](06-Practice-Questions/02-manage-maintain-devices-questions.md#q205), [Q2.06](06-Practice-Questions/02-manage-maintain-devices-questions.md#q206) |
+| 2.1.3 | Apply a device name template by using Windows Autopilot | [doc](02-Manage-Maintain-Devices/docs/2.1.3-autopilot-device-name-template.md) | [LAB-2.01](02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) | [Q2.06](06-Practice-Questions/02-manage-maintain-devices-questions.md#q206), [Q2.07](06-Practice-Questions/02-manage-maintain-devices-questions.md#q207) |
+| 2.1.4 | Implement Windows client deployment by using Windows Autopilot | [doc](02-Manage-Maintain-Devices/docs/2.1.4-implement-autopilot-deployment.md) | [LAB-2.01](02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) | [Q2.08](06-Practice-Questions/02-manage-maintain-devices-questions.md#q208), [Q2.09](06-Practice-Questions/02-manage-maintain-devices-questions.md#q209) |
+| 2.1.5 | Create an Enrollment Status Page (ESP) | [doc](02-Manage-Maintain-Devices/docs/2.1.5-enrollment-status-page.md) | [LAB-2.01](02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) | [Q2.10](06-Practice-Questions/02-manage-maintain-devices-questions.md#q210), [Q2.11](06-Practice-Questions/02-manage-maintain-devices-questions.md#q211) |
+| 2.1.6 | Plan and implement device upgrades for Windows 11 by using Intune | [doc](02-Manage-Maintain-Devices/docs/2.1.6-windows-11-upgrades.md) | [LAB-2.04](02-Manage-Maintain-Devices/labs/LAB-2.04-windows-11-upgrade.md) | [Q2.12](06-Practice-Questions/02-manage-maintain-devices-questions.md#q212), [Q2.13](06-Practice-Questions/02-manage-maintain-devices-questions.md#q213) |
+| 2.1.7 | Provision and configure Windows 365 Cloud PCs by using Intune, including provisioning policies, network connections, and image management | [doc](02-Manage-Maintain-Devices/docs/2.1.7-windows-365-cloud-pcs.md) | [LAB-2.05](02-Manage-Maintain-Devices/labs/LAB-2.05-windows-365-cloud-pc.md) | [Q2.14](06-Practice-Questions/02-manage-maintain-devices-questions.md#q214), [Q2.15](06-Practice-Questions/02-manage-maintain-devices-questions.md#q215) |
+| 2.1.8 | Implement Windows Backup by using Intune | [doc](02-Manage-Maintain-Devices/docs/2.1.8-windows-backup.md) | [LAB-2.06](02-Manage-Maintain-Devices/labs/LAB-2.06-windows-backup.md) | [Q2.16](06-Practice-Questions/02-manage-maintain-devices-questions.md#q216) |
 
 ### 2.2 Plan and implement device configuration profiles
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 2.2.1 | Create device configuration profiles for Windows devices, including importing ADMX files and using Group Policy analytics | **MISSING** | **MISSING** | - |
-| 2.2.2 | Create device configuration profiles for Android devices | **MISSING** | **MISSING** | - |
-| 2.2.3 | Create device configuration profiles for iOS/iPadOS devices | **MISSING** | **MISSING** | - |
-| 2.2.4 | Create device configuration profiles for macOS devices | **MISSING** | **MISSING** | - |
-| 2.2.5 | Create device configuration profiles for specialty devices, including Microsoft Teams Rooms, HoloLens 2, and Zebra | **MISSING** | **MISSING** | - |
-| 2.2.6 | Target a profile by using assignment filters and enrollment time grouping | **MISSING** | **MISSING** | - |
+| 2.2.1 | Create device configuration profiles for Windows devices, including importing ADMX files and using Group Policy analytics | [doc](02-Manage-Maintain-Devices/docs/2.2.1-windows-configuration-profiles.md) | [LAB-2.07](02-Manage-Maintain-Devices/labs/LAB-2.07-windows-settings-catalog-admx-gpa.md) | [Q2.17](06-Practice-Questions/02-manage-maintain-devices-questions.md#q217), [Q2.18](06-Practice-Questions/02-manage-maintain-devices-questions.md#q218), [Q2.19](06-Practice-Questions/02-manage-maintain-devices-questions.md#q219) |
+| 2.2.2 | Create device configuration profiles for Android devices | [doc](02-Manage-Maintain-Devices/docs/2.2.2-android-configuration-profiles.md) | [LAB-2.08](02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md) | [Q2.20](06-Practice-Questions/02-manage-maintain-devices-questions.md#q220) |
+| 2.2.3 | Create device configuration profiles for iOS/iPadOS devices | [doc](02-Manage-Maintain-Devices/docs/2.2.3-ios-ipados-configuration-profiles.md) | [LAB-2.08](02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md) | [Q2.21](06-Practice-Questions/02-manage-maintain-devices-questions.md#q221) |
+| 2.2.4 | Create device configuration profiles for macOS devices | [doc](02-Manage-Maintain-Devices/docs/2.2.4-macos-configuration-profiles.md) | [LAB-2.08](02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md) | [Q2.22](06-Practice-Questions/02-manage-maintain-devices-questions.md#q222) |
+| 2.2.5 | Create device configuration profiles for specialty devices, including Microsoft Teams Rooms, HoloLens 2, and Zebra | [doc](02-Manage-Maintain-Devices/docs/2.2.5-specialty-devices.md) | [LAB-2.09](02-Manage-Maintain-Devices/labs/LAB-2.09-specialty-devices.md) | [Q2.23](06-Practice-Questions/02-manage-maintain-devices-questions.md#q223), [Q2.24](06-Practice-Questions/02-manage-maintain-devices-questions.md#q224) |
+| 2.2.6 | Target a profile by using assignment filters and enrollment time grouping | [doc](02-Manage-Maintain-Devices/docs/2.2.6-assignment-filters-enrollment-time-grouping.md) | [LAB-2.10](02-Manage-Maintain-Devices/labs/LAB-2.10-assignment-filters-etg.md) | [Q2.25](06-Practice-Questions/02-manage-maintain-devices-questions.md#q225), [Q2.26](06-Practice-Questions/02-manage-maintain-devices-questions.md#q226) |
 
 ### 2.3 Implement Intune Suite add-on capabilities
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 2.3.1 | Configure Endpoint Privilege Management including configuring elevation policies, monitoring elevated actions, and adjusting EPM settings | **MISSING** | **MISSING** | - |
-| 2.3.2 | Manage applications by using the Enterprise App Catalog | **MISSING** | **MISSING** | - |
-| 2.3.3 | Configure Microsoft Intune Remote Help | **MISSING** | **MISSING** | - |
-| 2.3.4 | Plan and implement Microsoft Cloud PKI, including setting up cloud-based PKI, automating certificate issuance, and monitoring certificate health | **MISSING** | **MISSING** | - |
-| 2.3.5 | Implement Microsoft Tunnel for Mobile Application Management, including configuring the Microsoft Tunnel VPN Gateway, extending support to MAM devices, and monitoring tunnel connections | **MISSING** | **MISSING** | - |
-| 2.3.6 | Implement Microsoft Intune Advanced Analytics, including anomaly detection, proactive insights, and risk-based policy recommendations | **MISSING** | **MISSING** | - |
+| 2.3.1 | Configure Endpoint Privilege Management including configuring elevation policies, monitoring elevated actions, and adjusting EPM settings | [doc](02-Manage-Maintain-Devices/docs/2.3.1-endpoint-privilege-management.md) | [LAB-2.11](02-Manage-Maintain-Devices/labs/LAB-2.11-endpoint-privilege-management.md) | [Q2.27](06-Practice-Questions/02-manage-maintain-devices-questions.md#q227), [Q2.28](06-Practice-Questions/02-manage-maintain-devices-questions.md#q228) |
+| 2.3.2 | Manage applications by using the Enterprise App Catalog | [doc](02-Manage-Maintain-Devices/docs/2.3.2-enterprise-app-catalog.md) | [LAB-2.12](02-Manage-Maintain-Devices/labs/LAB-2.12-enterprise-app-catalog.md) | [Q2.29](06-Practice-Questions/02-manage-maintain-devices-questions.md#q229) |
+| 2.3.3 | Configure Microsoft Intune Remote Help | [doc](02-Manage-Maintain-Devices/docs/2.3.3-remote-help.md) | [LAB-2.13](02-Manage-Maintain-Devices/labs/LAB-2.13-remote-help.md) | [Q2.30](06-Practice-Questions/02-manage-maintain-devices-questions.md#q230) |
+| 2.3.4 | Plan and implement Microsoft Cloud PKI, including setting up cloud-based PKI, automating certificate issuance, and monitoring certificate health | [doc](02-Manage-Maintain-Devices/docs/2.3.4-cloud-pki.md) | [LAB-2.14](02-Manage-Maintain-Devices/labs/LAB-2.14-cloud-pki-scep.md) | [Q2.31](06-Practice-Questions/02-manage-maintain-devices-questions.md#q231) |
+| 2.3.5 | Implement Microsoft Tunnel for Mobile Application Management, including configuring the Microsoft Tunnel VPN Gateway, extending support to MAM devices, and monitoring tunnel connections | [doc](02-Manage-Maintain-Devices/docs/2.3.5-microsoft-tunnel-for-mam.md) | [LAB-2.15](02-Manage-Maintain-Devices/labs/LAB-2.15-microsoft-tunnel-mam.md) | [Q2.32](06-Practice-Questions/02-manage-maintain-devices-questions.md#q232) |
+| 2.3.6 | Implement Microsoft Intune Advanced Analytics, including anomaly detection, proactive insights, and risk-based policy recommendations | [doc](02-Manage-Maintain-Devices/docs/2.3.6-advanced-analytics.md) | [LAB-2.16](02-Manage-Maintain-Devices/labs/LAB-2.16-advanced-analytics.md) | [Q2.33](06-Practice-Questions/02-manage-maintain-devices-questions.md#q233) |
 
 ### 2.4 Perform remote actions on devices
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 2.4.1 | Sync, restart, retire, or wipe devices | **MISSING** | **MISSING** | - |
-| 2.4.2 | Perform bulk remote actions | **MISSING** | **MISSING** | - |
-| 2.4.3 | Update Microsoft Defender Antivirus security intelligence | **MISSING** | **MISSING** | - |
-| 2.4.4 | Rotate BitLocker recovery keys | **MISSING** | **MISSING** | - |
-| 2.4.5 | Rotate local administrator passwords | **MISSING** | **MISSING** | - |
-| 2.4.6 | Run a device query by using KQL | **MISSING** | **MISSING** | - |
-| 2.4.7 | Collect device diagnostics and logs by using Microsoft Intune, including using the Troubleshooting blade for user-based diagnostics | **MISSING** | **MISSING** | - |
+| 2.4.1 | Sync, restart, retire, or wipe devices | [doc](02-Manage-Maintain-Devices/docs/2.4.1-sync-restart-retire-wipe.md) | [LAB-2.17](02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md) | [Q2.34](06-Practice-Questions/02-manage-maintain-devices-questions.md#q234) |
+| 2.4.2 | Perform bulk remote actions | [doc](02-Manage-Maintain-Devices/docs/2.4.2-bulk-remote-actions.md) | [LAB-2.17](02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md) | [Q2.35](06-Practice-Questions/02-manage-maintain-devices-questions.md#q235) |
+| 2.4.3 | Update Microsoft Defender Antivirus security intelligence | [doc](02-Manage-Maintain-Devices/docs/2.4.3-defender-security-intelligence-update.md) | [LAB-2.17](02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md) | [Q2.36](06-Practice-Questions/02-manage-maintain-devices-questions.md#q236) |
+| 2.4.4 | Rotate BitLocker recovery keys | [doc](02-Manage-Maintain-Devices/docs/2.4.4-rotate-bitlocker-keys.md) | [LAB-2.17](02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md) | [Q2.37](06-Practice-Questions/02-manage-maintain-devices-questions.md#q237) |
+| 2.4.5 | Rotate local administrator passwords | [doc](02-Manage-Maintain-Devices/docs/2.4.5-rotate-local-admin-passwords.md) | [LAB-2.17](02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md) | [Q2.38](06-Practice-Questions/02-manage-maintain-devices-questions.md#q238) |
+| 2.4.6 | Run a device query by using KQL | [doc](02-Manage-Maintain-Devices/docs/2.4.6-device-query-kql.md) | [LAB-2.18](02-Manage-Maintain-Devices/labs/LAB-2.18-device-query-diagnostics.md) | [Q2.39](06-Practice-Questions/02-manage-maintain-devices-questions.md#q239) |
+| 2.4.7 | Collect device diagnostics and logs by using Microsoft Intune, including using the Troubleshooting blade for user-based diagnostics | [doc](02-Manage-Maintain-Devices/docs/2.4.7-collect-diagnostics-logs.md) | [LAB-2.18](02-Manage-Maintain-Devices/labs/LAB-2.18-device-query-diagnostics.md) | [Q2.40](06-Practice-Questions/02-manage-maintain-devices-questions.md#q240) |
 
 ## Domain 3 - Protect devices (15–20%)
 
