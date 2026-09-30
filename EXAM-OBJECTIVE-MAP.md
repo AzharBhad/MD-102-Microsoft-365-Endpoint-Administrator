@@ -8,9 +8,9 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 | Coverage | Count |
 |---|---|
 | Objectives | 83 |
-| With a doc | 60 |
-| With a lab | 60 |
-| With practice questions | 60 |
+| With a doc | 72 |
+| With a lab | 72 |
+| With practice questions | 72 |
 
 ## Domain 1 - Prepare infrastructure for devices (20–25%)
 
@@ -129,23 +129,23 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 4.1.1 | Prepare applications for deployment by using Intune | **MISSING** | **MISSING** | - |
-| 4.1.2 | Deploy apps by using Intune, including Win32 apps, line-of-business (LOB) apps, and Microsoft Store apps | **MISSING** | **MISSING** | - |
-| 4.1.3 | Configure Quiet Time policies for Android and iOS apps | **MISSING** | **MISSING** | - |
-| 4.1.4 | Deploy Microsoft 365 Apps by using Intune | **MISSING** | **MISSING** | - |
-| 4.1.5 | Configure policies for Microsoft 365 apps by using Microsoft Intune or the Microsoft 365 Apps admin center | **MISSING** | **MISSING** | - |
-| 4.1.6 | Deploy Microsoft 365 Apps as part of a Windows Autopilot deployment, including using the Office Deployment Tool (ODT) or Microsoft Intune | **MISSING** | **MISSING** | - |
-| 4.1.7 | Manage Microsoft 365 Apps by using the Microsoft 365 Apps admin center | **MISSING** | **MISSING** | - |
-| 4.1.8 | Deploy apps from platform-specific app stores by using Intune, including Apple Business Manager and Managed Google Play | **MISSING** | **MISSING** | - |
-| 4.1.9 | Monitor app deployment status and troubleshoot installation failures by using Microsoft Intune | **MISSING** | **MISSING** | - |
+| 4.1.1 | Prepare applications for deployment by using Intune | [doc](04-Manage-Secure-Applications/docs/4.1.1-prepare-apps-for-deployment.md) | [LAB-4.01](04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md) | [Q4.01](06-Practice-Questions/04-manage-secure-applications-questions.md#q401), [Q4.02](06-Practice-Questions/04-manage-secure-applications-questions.md#q402) |
+| 4.1.2 | Deploy apps by using Intune, including Win32 apps, line-of-business (LOB) apps, and Microsoft Store apps | [doc](04-Manage-Secure-Applications/docs/4.1.2-deploy-win32-lob-store-apps.md) | [LAB-4.01](04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md), [LAB-4.02](04-Manage-Secure-Applications/labs/LAB-4.02-lob-store-apps.md) | [Q4.03](06-Practice-Questions/04-manage-secure-applications-questions.md#q403), [Q4.04](06-Practice-Questions/04-manage-secure-applications-questions.md#q404), [Q4.05](06-Practice-Questions/04-manage-secure-applications-questions.md#q405), [Q4.06](06-Practice-Questions/04-manage-secure-applications-questions.md#q406) |
+| 4.1.3 | Configure Quiet Time policies for Android and iOS apps | [doc](04-Manage-Secure-Applications/docs/4.1.3-quiet-time-policies.md) | [LAB-4.06](04-Manage-Secure-Applications/labs/LAB-4.06-quiet-time.md) | [Q4.07](06-Practice-Questions/04-manage-secure-applications-questions.md#q407), [Q4.08](06-Practice-Questions/04-manage-secure-applications-questions.md#q408) |
+| 4.1.4 | Deploy Microsoft 365 Apps by using Intune | [doc](04-Manage-Secure-Applications/docs/4.1.4-deploy-microsoft-365-apps.md) | [LAB-4.03](04-Manage-Secure-Applications/labs/LAB-4.03-m365-apps-intune-odt-autopilot.md) | [Q4.09](06-Practice-Questions/04-manage-secure-applications-questions.md#q409), [Q4.10](06-Practice-Questions/04-manage-secure-applications-questions.md#q410) |
+| 4.1.5 | Configure policies for Microsoft 365 apps by using Microsoft Intune or the Microsoft 365 Apps admin center | [doc](04-Manage-Secure-Applications/docs/4.1.5-microsoft-365-apps-policies.md) | [LAB-4.04](04-Manage-Secure-Applications/labs/LAB-4.04-cloud-policy-m365-apps-admin-center.md) | [Q4.11](06-Practice-Questions/04-manage-secure-applications-questions.md#q411), [Q4.12](06-Practice-Questions/04-manage-secure-applications-questions.md#q412) |
+| 4.1.6 | Deploy Microsoft 365 Apps as part of a Windows Autopilot deployment, including using the Office Deployment Tool (ODT) or Microsoft Intune | [doc](04-Manage-Secure-Applications/docs/4.1.6-m365-apps-autopilot-odt.md) | [LAB-4.03](04-Manage-Secure-Applications/labs/LAB-4.03-m365-apps-intune-odt-autopilot.md) | [Q4.13](06-Practice-Questions/04-manage-secure-applications-questions.md#q413), [Q4.14](06-Practice-Questions/04-manage-secure-applications-questions.md#q414) |
+| 4.1.7 | Manage Microsoft 365 Apps by using the Microsoft 365 Apps admin center | [doc](04-Manage-Secure-Applications/docs/4.1.7-microsoft-365-apps-admin-center.md) | [LAB-4.04](04-Manage-Secure-Applications/labs/LAB-4.04-cloud-policy-m365-apps-admin-center.md) | [Q4.15](06-Practice-Questions/04-manage-secure-applications-questions.md#q415), [Q4.16](06-Practice-Questions/04-manage-secure-applications-questions.md#q416) |
+| 4.1.8 | Deploy apps from platform-specific app stores by using Intune, including Apple Business Manager and Managed Google Play | [doc](04-Manage-Secure-Applications/docs/4.1.8-store-apps-abm-managed-google-play.md) | [LAB-4.05](04-Manage-Secure-Applications/labs/LAB-4.05-abm-vpp-managed-google-play.md) | [Q4.17](06-Practice-Questions/04-manage-secure-applications-questions.md#q417), [Q4.18](06-Practice-Questions/04-manage-secure-applications-questions.md#q418) |
+| 4.1.9 | Monitor app deployment status and troubleshoot installation failures by using Microsoft Intune | [doc](04-Manage-Secure-Applications/docs/4.1.9-monitor-troubleshoot-app-deployment.md) | [LAB-4.01](04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md) | [Q4.19](06-Practice-Questions/04-manage-secure-applications-questions.md#q419), [Q4.20](06-Practice-Questions/04-manage-secure-applications-questions.md#q420) |
 
 ### 4.2 Plan and implement app protection and app configuration policies
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 4.2.1 | Plan and implement app protection policies for managed and unmanaged (BYOD) devices by using Microsoft Intune | **MISSING** | **MISSING** | - |
-| 4.2.2 | Implement Microsoft Entra Conditional Access policies for app protection policies | **MISSING** | **MISSING** | - |
-| 4.2.3 | Plan and implement app configuration policies for managed apps and managed devices | **MISSING** | **MISSING** | - |
+| 4.2.1 | Plan and implement app protection policies for managed and unmanaged (BYOD) devices by using Microsoft Intune | [doc](04-Manage-Secure-Applications/docs/4.2.1-app-protection-policies.md) | [LAB-4.07](04-Manage-Secure-Applications/labs/LAB-4.07-app-protection-conditional-access.md) | [Q4.21](06-Practice-Questions/04-manage-secure-applications-questions.md#q421), [Q4.22](06-Practice-Questions/04-manage-secure-applications-questions.md#q422) |
+| 4.2.2 | Implement Microsoft Entra Conditional Access policies for app protection policies | [doc](04-Manage-Secure-Applications/docs/4.2.2-conditional-access-app-protection.md) | [LAB-4.07](04-Manage-Secure-Applications/labs/LAB-4.07-app-protection-conditional-access.md) | [Q4.23](06-Practice-Questions/04-manage-secure-applications-questions.md#q423) |
+| 4.2.3 | Plan and implement app configuration policies for managed apps and managed devices | [doc](04-Manage-Secure-Applications/docs/4.2.3-app-configuration-policies.md) | [LAB-4.08](04-Manage-Secure-Applications/labs/LAB-4.08-app-configuration-policies.md) | [Q4.24](06-Practice-Questions/04-manage-secure-applications-questions.md#q424) |
 
 ## Domain 5 - Optimize endpoint operations by using automation, monitoring, and reporting (10–15%)
 
