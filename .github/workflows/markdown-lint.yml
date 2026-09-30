@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
+      # Prebundled action: no npm install at run time, so registry hiccups can't break the build
       - name: Run markdownlint-cli2
-        run: npx --yes markdownlint-cli2 "**/*.md"
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: "**/*.md"
