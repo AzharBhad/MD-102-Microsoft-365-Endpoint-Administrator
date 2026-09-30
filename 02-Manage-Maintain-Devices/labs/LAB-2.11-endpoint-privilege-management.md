@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- CONTOSO-LAB-03 (Entra joined) with user3 as a **standard** user (LAB-2.01).
+- CONTOSO-LAB-03 (Entra joined) with user3 as a **standard** user ([LAB-2.01](LAB-2.01-autopilot-user-driven.md)).
 - An installer to test, for example the Notepad++ installer copied to `C:\Program Files\Contoso\Installers\` (use an admin session or deploy it with Intune so standard users can't modify the folder).
 - EPM licensing active (**Tenant administration > Intune add-ons** shows EPM as *Active* or on trial).
 

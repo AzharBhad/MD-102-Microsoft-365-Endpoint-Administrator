@@ -31,7 +31,7 @@ Running Intune day to day: automating with PowerShell and Microsoft Graph, worki
 
 `5.05 (start early - 24 h data wait) → 5.01 → 5.03 → 5.04 → 5.06 → 5.02`
 
-LAB-5.02 is last because Security Copilot capacity can cost money - do it in one sitting, or follow its paper path.
+[LAB-5.02](labs/LAB-5.02-security-copilot-agents.md) is last because Security Copilot capacity can cost money - do it in one sitting, or follow its paper path.
 
 ## Practice
 

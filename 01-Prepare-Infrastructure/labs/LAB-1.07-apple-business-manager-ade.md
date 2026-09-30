@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
-- APNs certificate (LAB-1.05).
+- APNs certificate ([LAB-1.05](LAB-1.05-apple-personal-enrollment.md)).
 - *(Full mode)* ABM account with **Device Enrollment Manager** or **Administrator** role. An iPhone/iPad or Mac assigned in ABM, or Apple Configurator for iPhone to add one.
 
 ## Required licenses
@@ -48,7 +48,7 @@ Token → **Profiles > Create profile > iOS/iPadOS**:
 | Name | `ADE-iOS-UserAffinity` |
 | User affinity | **Enroll with User Affinity** |
 | Authentication method | **Setup Assistant with modern authentication** |
-| Install Company Portal with VPP | No (Yes after LAB-4.05) |
+| Install Company Portal with VPP | No (Yes after [LAB-4.05](../../04-Manage-Secure-Applications/labs/LAB-4.05-abm-vpp-managed-google-play.md)) |
 | Supervised | Yes |
 | **Locked enrollment** | **Yes** |
 | Await final configuration | Yes |
@@ -61,7 +61,7 @@ Then create `ADE-iPad-Shared` with **Enroll without User Affinity** + **Shared i
 
 ### Step 5 - Create a macOS ADE profile
 
-`ADE-macOS-Corp`: User affinity **with**, authentication **Setup Assistant with modern authentication**, **Locked enrollment Yes**, **Await final configuration Yes**, account settings → create local primary account (or **Platform SSO** if you'll do LAB-2.08 stretch).
+`ADE-macOS-Corp`: User affinity **with**, authentication **Setup Assistant with modern authentication**, **Locked enrollment Yes**, **Await final configuration Yes**, account settings → create local primary account (or **Platform SSO** if you'll do [LAB-2.08](../../02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md) stretch).
 
 **Expected result:** Profile created.
 

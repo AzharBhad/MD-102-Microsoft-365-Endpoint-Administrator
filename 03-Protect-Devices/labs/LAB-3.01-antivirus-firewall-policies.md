@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - CONTOSO-LAB-01 and -03 in `DG-Lab-Windows-Corporate`.
-- For tamper protection: LAB-3.05 onboarding (you can do this lab first and add tamper protection later).
+- For tamper protection: [LAB-3.05](LAB-3.05-defender-for-endpoint.md) onboarding (you can do this lab first and add tamper protection later).
 
 ## Required licenses
 
@@ -62,7 +62,7 @@ Download the **EICAR** test string (from eicar.org) into a text file.
 
 **Antivirus > Create** → **Windows Security experience** → *TamperProtection (Device)* = On → assign.
 
-**Expected result:** After onboarding (LAB-3.05), `(Get-MpComputerStatus).IsTamperProtected` = True.
+**Expected result:** After onboarding ([LAB-3.05](LAB-3.05-defender-for-endpoint.md)), `(Get-MpComputerStatus).IsTamperProtected` = True.
 
 ### Step 5 - Windows Firewall profile
 
@@ -114,7 +114,7 @@ Remove the Telnet block rule if it interferes. Keep the AV and firewall profiles
 
 ## Stretch challenge
 
-Use advanced hunting (after LAB-3.05) to find the EICAR detection: `DeviceEvents | where ActionType == "AntivirusDetection"`.
+Use advanced hunting (after [LAB-3.05](LAB-3.05-defender-for-endpoint.md)) to find the EICAR detection: `DeviceEvents | where ActionType == "AntivirusDetection"`.
 
 ## Knowledge check
 

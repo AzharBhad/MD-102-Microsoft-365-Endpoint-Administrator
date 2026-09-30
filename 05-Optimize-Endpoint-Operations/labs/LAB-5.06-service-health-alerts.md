@@ -6,12 +6,12 @@
 
 **Goal:** Review tenant health and connectors, subscribe the team to service communications, define an operational baseline, and build alerts for compliance drift, enrollment failures and risky configuration changes.
 
-> 💰 **Cost guardrail:** Log search alert rules cost a small amount per rule per month plus Log Analytics ingestion. Use the workspace from LAB-5.04 with its daily cap, and delete the alert rules afterwards.
+> 💰 **Cost guardrail:** Log search alert rules cost a small amount per rule per month plus Log Analytics ingestion. Use the workspace from [LAB-5.04](LAB-5.04-reports-workbooks-export.md) with its daily cap, and delete the alert rules afterwards.
 
 ## Prerequisites
 
-- LAB-5.04 completed (diagnostic settings → `law-intune-lab`).
-- A compliance policy assigned to lab devices (LAB-1.11).
+- [LAB-5.04](LAB-5.04-reports-workbooks-export.md) completed (diagnostic settings → `law-intune-lab`).
+- A compliance policy assigned to lab devices ([LAB-1.11](../../01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md)).
 - Global Administrator or Privileged Role Administrator to assign Entra roles (Step 2).
 
 ## Required licenses

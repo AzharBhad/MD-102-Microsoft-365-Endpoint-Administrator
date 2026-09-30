@@ -10,13 +10,13 @@
 
 ## Prerequisites
 
-- CONTOSO-LAB-03 registered with Autopilot (LAB-2.01) and restored to the OOBE checkpoint. Delete its Intune and Entra device objects first (keep the Autopilot record).
+- CONTOSO-LAB-03 registered with Autopilot ([LAB-2.01](LAB-2.01-autopilot-user-driven.md)) and restored to the OOBE checkpoint. Delete its Intune and Entra device objects first (keep the Autopilot record).
 - A device-targeted Win32 app (for example, 7-Zip) assigned to `DG-Lab-Autopilot`.
 - For self-deploying: a second registered VM with group tag `Kiosk` and a dynamic group `DG-Lab-Autopilot-Kiosk` (`[OrderID]:Kiosk`).
 
 ## Required licenses
 
-As LAB-2.01. The kiosk can use an Intune device-only license.
+As [LAB-2.01](LAB-2.01-autopilot-user-driven.md). The kiosk can use an Intune device-only license.
 
 ## Steps
 

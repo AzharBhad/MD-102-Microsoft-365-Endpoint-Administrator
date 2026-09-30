@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- LAB-3.01 and LAB-3.02 policies assigned (they'll conflict with the baseline on purpose).
+- [LAB-3.01](LAB-3.01-antivirus-firewall-policies.md) and [LAB-3.02](LAB-3.02-bitlocker-filevault.md) policies assigned (they'll conflict with the baseline on purpose).
 - A pilot device group `SG-Lab-Baseline-Pilot` containing CONTOSO-LAB-01 only.
 
 ## Required licenses
@@ -33,7 +33,7 @@ Intune Plan 1. Defender for Endpoint for the MDE baseline.
 
 Sync the device → **Devices > CONTOSO-LAB-01 > Device configuration** → look for **Conflict** status. Open `SB-Windows-Pilot` → **Per setting status**.
 
-**Expected result:** Settings such as BitLocker encryption method, Defender cloud block level or firewall settings show *Conflict* if values differ from LAB-3.01/3.02.
+**Expected result:** Settings such as BitLocker encryption method, Defender cloud block level or firewall settings show *Conflict* if values differ from [LAB-3.01](LAB-3.01-antivirus-firewall-policies.md)/3.02.
 
 ### Step 4 - Resolve by ownership
 

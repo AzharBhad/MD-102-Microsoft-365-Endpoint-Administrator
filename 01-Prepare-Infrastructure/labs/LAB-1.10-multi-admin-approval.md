@@ -88,7 +88,7 @@ Delete `MAA-Scripts` and `MAA-DeviceActions` (deletion of an access policy itsel
 
 ## Stretch challenge
 
-Protect **Compliance policies** with MAA, then edit the Windows compliance policy from LAB-1.11. Record the end-to-end time from request to completion and suggest an operational SLA.
+Protect **Compliance policies** with MAA, then edit the Windows compliance policy from [LAB-1.11](LAB-1.11-compliance-conditional-access.md). Record the end-to-end time from request to completion and suggest an operational SLA.
 
 ## Knowledge check
 

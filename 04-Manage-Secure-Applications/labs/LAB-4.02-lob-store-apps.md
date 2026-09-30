@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- A small MSI (for example, a lab MSI from a vendor, or the 7-Zip MSI - using a different app name to avoid clashing with LAB-4.01).
+- A small MSI (for example, a lab MSI from a vendor, or the 7-Zip MSI - using a different app name to avoid clashing with [LAB-4.01](LAB-4.01-win32-packaging-troubleshooting.md)).
 - CONTOSO-LAB-03 with user3.
 
 ## Required licenses

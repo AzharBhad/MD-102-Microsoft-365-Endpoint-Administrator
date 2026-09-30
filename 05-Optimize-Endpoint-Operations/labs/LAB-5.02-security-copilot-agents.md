@@ -10,8 +10,8 @@
 
 ## Prerequisites
 
-- Windows devices onboarded to **Defender for Endpoint** with vulnerability data visible in **Defender > Vulnerability management** (LAB-3.05, wait 24 h after onboarding).
-- Endpoint analytics enabled with at least 5 devices for scores (LAB-5.05) - Part B still works with fewer devices for single-device prompts.
+- Windows devices onboarded to **Defender for Endpoint** with vulnerability data visible in **Defender > Vulnerability management** ([LAB-3.05](../../03-Protect-Devices/labs/LAB-3.05-defender-for-endpoint.md), wait 24 h after onboarding).
+- Endpoint analytics enabled with at least 5 devices for scores ([LAB-5.05](LAB-5.05-endpoint-analytics-remediations.md)) - Part B still works with fewer devices for single-device prompts.
 - Security Copilot capacity with the **Microsoft Intune** and **Microsoft Defender** plugins enabled.
 - Roles: Intune **Read Only Operator** (or Intune Administrator) + Security Copilot **Owner**. Rights in Entra and Defender to delegate permissions to the agent's identity.
 
@@ -69,7 +69,7 @@ Choose one:
 
 **Explorer** → type *"devices with the lowest startup performance score"* (or pick a built-in example) → review → **Add to group** `DG-Lab-SlowStartup`.
 
-**Expected result:** A new group containing the listed devices (useful as a remediation target in LAB-5.05).
+**Expected result:** A new group containing the listed devices (useful as a remediation target in [LAB-5.05](LAB-5.05-endpoint-analytics-remediations.md)).
 
 #### Step 7 - Device query with Copilot (Advanced Analytics)
 
@@ -107,7 +107,7 @@ Security Copilot portal → usage monitoring → find the SCUs used by this lab.
 
 - Remove the agent if you don't need it (**Agents > agent > Remove agent**) - this deletes suggestions and applied history.
 - Delete Security Copilot capacity if you provisioned it for the lab.
-- Delete `DG-Lab-SlowStartup` if not used in LAB-5.05.
+- Delete `DG-Lab-SlowStartup` if not used in [LAB-5.05](LAB-5.05-endpoint-analytics-remediations.md).
 
 ## Stretch challenge
 

@@ -9,8 +9,8 @@
 ## Prerequisites
 
 - CONTOSO-LAB-01 with Microsoft Defender Antivirus active (no third-party AV).
-- Microsoft Office installed (Microsoft 365 Apps, LAB-4.03), or use the PowerShell-based test for other rules.
-- Optional: onboarded to Defender for Endpoint (LAB-3.05) for portal reporting.
+- Microsoft Office installed (Microsoft 365 Apps, [LAB-4.03](../../04-Manage-Secure-Applications/labs/LAB-4.03-m365-apps-intune-odt-autopilot.md)), or use the PowerShell-based test for other rules.
+- Optional: onboarded to Defender for Endpoint ([LAB-3.05](LAB-3.05-defender-for-endpoint.md)) for portal reporting.
 
 ## Required licenses
 

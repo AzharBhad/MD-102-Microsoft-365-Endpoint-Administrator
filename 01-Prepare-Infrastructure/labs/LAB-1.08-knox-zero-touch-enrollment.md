@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
-- LAB-1.06 (Managed Google Play bound and corporate profiles `AE-COBO-Lab`, `AE-COSU-Kiosk` created).
+- [LAB-1.06](LAB-1.06-android-enterprise-enrollment-profiles.md) (Managed Google Play bound and corporate profiles `AE-COBO-Lab`, `AE-COSU-Kiosk` created).
 - Optional: a zero-touch customer account, or a Samsung Knox account with a Samsung Galaxy device and the **Knox Deployment App** on a second Samsung device.
 
 ## Required licenses

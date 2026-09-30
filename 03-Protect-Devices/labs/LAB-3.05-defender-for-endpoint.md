@@ -10,7 +10,7 @@
 
 - Microsoft 365 E5 trial (includes Defender for Endpoint P2). First sign-in to `security.microsoft.com` provisions the Defender tenant (can take minutes to hours).
 - CONTOSO-LAB-01 and -03.
-- CA010 from LAB-1.11.
+- CA010 from [LAB-1.11](../../01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md).
 
 ## Required licenses
 

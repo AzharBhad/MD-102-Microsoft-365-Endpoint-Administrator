@@ -4,13 +4,13 @@
 |---|---|---|---|
 | LAB-2.02 | 2.1.1 | 60 min | Intermediate |
 
-**Goal:** Deploy a Windows 11 VM with a Windows Autopilot **device preparation** policy (no hardware hash), use enrollment time grouping, and compare the experience and reporting with LAB-2.01.
+**Goal:** Deploy a Windows 11 VM with a Windows Autopilot **device preparation** policy (no hardware hash), use enrollment time grouping, and compare the experience and reporting with [LAB-2.01](LAB-2.01-autopilot-user-driven.md).
 
 ## Prerequisites
 
 - A **new** Gen2 VM `CONTOSO-LAB-04` (Windows 11 24H2 Enterprise) at OOBE. It must **not** be registered with classic Autopilot.
-- `SG-Lab-ETG-Windows` static group with **Intune Provisioning Client** as owner (LAB setup / LAB-1.06 method).
-- user2 in `SG-Lab-Users`. If personal Windows is blocked for user2, add a **corporate identifier** for the VM (LAB-1.01 Step 5).
+- `SG-Lab-ETG-Windows` static group with **Intune Provisioning Client** as owner (LAB setup / [LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md) method).
+- user2 in `SG-Lab-Users`. If personal Windows is blocked for user2, add a **corporate identifier** for the VM ([LAB-1.01](../../01-Prepare-Infrastructure/labs/LAB-1.01-tenant-baseline-enrollment-settings.md) Step 5).
 
 ## Required licenses
 
@@ -61,7 +61,7 @@ Entra → `SG-Lab-ETG-Windows` → **Members**.
 
 Complete the table:
 
-| | LAB-2.01 (profile) | LAB-2.02 (device preparation) |
+| | [LAB-2.01](LAB-2.01-autopilot-user-driven.md) (profile) | LAB-2.02 (device preparation) |
 |---|---|---|
 | Hash upload needed | | |
 | Assigned to (user/device group) | | |

@@ -12,7 +12,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 2 | [Licensing guide](licensing-guide.md) + [cheat sheet](../07-Cheat-Sheets/08-licensing-minimums.md) |
 | 3-4 | Build the [lab environment](lab-environment-setup.md): trial tenant, users/groups script, 2 Hyper-V VMs |
 | 5 | Docs 1.1.1-1.1.4 (join types, groups) |
-| Weekend | LAB-1.01 → LAB-1.04. Start **LAB-5.05 Step 1** (Endpoint analytics onboarding - it needs data over time) |
+| Weekend | [LAB-1.01](../01-Prepare-Infrastructure/labs/LAB-1.01-tenant-baseline-enrollment-settings.md) → [LAB-1.04](../01-Prepare-Infrastructure/labs/LAB-1.04-dynamic-device-groups.md). Start **[LAB-5.05](../05-Optimize-Endpoint-Operations/labs/LAB-5.05-endpoint-analytics-remediations.md) Step 1** (Endpoint analytics onboarding - it needs data over time) |
 
 ## Week 2 - Enrollment, RBAC and compliance
 
@@ -22,7 +22,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 3 | Docs 1.3.1-1.3.3 (RBAC, scope tags, multi admin approval) |
 | 4 | Docs 1.3.4-1.3.8 (compliance, CA, WHfB, LAPS, local groups) |
 | 5 | [Domain 1 questions](../06-Practice-Questions/01-prepare-infrastructure-questions.md) - review every wrong answer's doc |
-| Weekend | LAB-1.05 → LAB-1.13 (skip Apple/Android labs you can't do; read them instead) |
+| Weekend | [LAB-1.05](../01-Prepare-Infrastructure/labs/LAB-1.05-apple-personal-enrollment.md) → [LAB-1.13](../01-Prepare-Infrastructure/labs/LAB-1.13-windows-laps-local-groups.md) (skip Apple/Android labs you can't do; read them instead) |
 
 ## Week 3 - Deploy Windows (Domain 2, part 1)
 
@@ -31,7 +31,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 1-2 | Docs 2.1.1-2.1.5 (Autopilot, device preparation, ESP) + [Autopilot cheat sheet](../07-Cheat-Sheets/04-autopilot.md) |
 | 3 | Docs 2.1.6-2.1.8 (Windows 11 upgrade, Windows 365, Windows Backup) |
 | 4 | Docs 2.2.1-2.2.6 (configuration profiles, filters, ETG) |
-| Weekend | LAB-2.01 → LAB-2.10 |
+| Weekend | [LAB-2.01](../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) → [LAB-2.10](../02-Manage-Maintain-Devices/labs/LAB-2.10-assignment-filters-etg.md) |
 
 ## Week 4 - Manage and maintain (Domain 2, part 2)
 
@@ -40,7 +40,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 1-2 | Docs 2.3.1-2.3.6 (EPM, Enterprise App Catalog, Remote Help, Cloud PKI, Tunnel for MAM, Advanced Analytics) |
 | 3 | Docs 2.4.1-2.4.7 (remote actions, BitLocker/LAPS rotation, device query, diagnostics) |
 | 4-5 | [Domain 2 questions](../06-Practice-Questions/02-manage-maintain-devices-questions.md) |
-| Weekend | LAB-2.11 → LAB-2.18 (Suite labs on trial licences) |
+| Weekend | [LAB-2.11](../02-Manage-Maintain-Devices/labs/LAB-2.11-endpoint-privilege-management.md) → [LAB-2.18](../02-Manage-Maintain-Devices/labs/LAB-2.18-device-query-diagnostics.md) (Suite labs on trial licences) |
 
 ## Week 5 - Protect devices (Domain 3)
 
@@ -49,7 +49,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 1-2 | Docs 3.1.1-3.1.8 (antivirus, BitLocker, firewall, ASR, baselines, Defender, App Control) |
 | 3 | Docs 3.2.1-3.2.7 (update rings, Autopatch, Hotpatch, Apple/Android updates, Delivery Optimization) |
 | 4 | [Domain 3 questions](../06-Practice-Questions/03-protect-devices-questions.md) + [precedence cheat sheet](../07-Cheat-Sheets/05-policy-precedence-and-conflicts.md) |
-| Weekend | LAB-3.01 → LAB-3.10 |
+| Weekend | [LAB-3.01](../03-Protect-Devices/labs/LAB-3.01-antivirus-firewall-policies.md) → [LAB-3.10](../03-Protect-Devices/labs/LAB-3.10-delivery-optimization-update-reports.md) |
 
 ## Week 6 - Applications (Domain 4)
 
@@ -58,7 +58,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 1-2 | Docs 4.1.1-4.1.9 (Win32, LOB, Store, Quiet Time, Microsoft 365 Apps, ABM/Managed Google Play, troubleshooting) |
 | 3 | Docs 4.2.1-4.2.3 (app protection, CA, app configuration) |
 | 4 | [Domain 4 questions](../06-Practice-Questions/04-manage-secure-applications-questions.md) |
-| Weekend | LAB-4.01 → LAB-4.08 |
+| Weekend | [LAB-4.01](../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md) → [LAB-4.08](../04-Manage-Secure-Applications/labs/LAB-4.08-app-configuration-policies.md) |
 
 ## Week 7 - Operations (Domain 5) and weak spots
 
@@ -67,7 +67,7 @@ About **9 hours per week** (for example, 1 hour on weekdays + 4 hours at the wee
 | 1-2 | Docs 5.1.1-5.1.5 (Graph, Security Copilot agents, custom compliance) |
 | 3 | Docs 5.2.1-5.2.6 (reports, Endpoint analytics, remediations, service health, alerts) |
 | 4 | [Domain 5 questions](../06-Practice-Questions/05-optimize-endpoint-operations-questions.md) |
-| Weekend | LAB-5.01 → LAB-5.06 (LAB-5.02 last - watch Security Copilot costs). Revisit every 🔴 objective in the tracker |
+| Weekend | [LAB-5.01](../05-Optimize-Endpoint-Operations/labs/LAB-5.01-graph-powershell-automation.md) → [LAB-5.06](../05-Optimize-Endpoint-Operations/labs/LAB-5.06-service-health-alerts.md) ([LAB-5.02](../05-Optimize-Endpoint-Operations/labs/LAB-5.02-security-copilot-agents.md) last - watch Security Copilot costs). Revisit every 🔴 objective in the tracker |
 
 ## Week 8 - Exam readiness
 

@@ -10,8 +10,8 @@
 
 ## Prerequisites
 
-- Managed Google Play bound (LAB-1.06) and APNs certificate (LAB-1.05).
-- Optional devices: Android (fully managed from LAB-1.06), iPhone (BYOD or ADE), Mac.
+- Managed Google Play bound ([LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md)) and APNs certificate ([LAB-1.05](../../01-Prepare-Infrastructure/labs/LAB-1.05-apple-personal-enrollment.md)).
+- Optional devices: Android (fully managed from [LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md)), iPhone (BYOD or ADE), Mac.
 
 ## Required licenses
 
@@ -51,7 +51,7 @@ Assign to `SG-Lab-Users`.
 
 ### Step 4 - iOS SSO extension and supervised restrictions
 
-1. If you didn't do LAB-1.05 Step 2: **iOS/iPadOS > Templates > Device features** → **Single sign-on app extension** → *Microsoft Entra ID* → assign `SG-Lab-Users`.
+1. If you didn't do [LAB-1.05](../../01-Prepare-Infrastructure/labs/LAB-1.05-apple-personal-enrollment.md) Step 2: **iOS/iPadOS > Templates > Device features** → **Single sign-on app extension** → *Microsoft Entra ID* → assign `SG-Lab-Users`.
 2. **Settings catalog** → `iOS-Supervised-Restrictions`: *Allow AirDrop* = False, *Allow Erase Content and Settings* = False, *Force automatic date and time* = True → assign to `SG-Lab-Users` with a **filter** `(device.deviceOwnership -eq "Corporate")`.
 
 **Expected result:** On a BYOD iPhone the supervised settings show *Not applicable* / aren't enforced. On ADE devices they apply.

@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - At least two Windows devices (for example CONTOSO-LAB-01 corporate and CONTOSO-LAB-02 personal).
-- LAB-2.02 completed (ETG group with a device).
+- [LAB-2.02](LAB-2.02-autopilot-device-preparation.md) completed (ETG group with a device).
 
 ## Required licenses
 
@@ -53,7 +53,7 @@ Change the assignment to filter `WIN-EXCL-VirtualMachines` in **Exclude** mode.
 
 **Filters > Create > Managed apps** → `APP-Unmanaged-Android` → platform Android → `(app.deviceManagementType -eq "Unmanaged")`.
 
-**Expected result:** Filter available for app protection/configuration assignments (used in LAB-4.07).
+**Expected result:** Filter available for app protection/configuration assignments (used in [LAB-4.07](../../04-Manage-Secure-Applications/labs/LAB-4.07-app-protection-conditional-access.md)).
 
 ### Step 6 - Review ETG
 
@@ -82,7 +82,7 @@ Remove `WIN-Filter-Test`. Keep the filters.
 
 ## Stretch challenge
 
-Replace two dynamic device groups from LAB-1.04 with *All devices + filter* assignments, and argue the pros and cons (evaluation time, reuse in other Microsoft services).
+Replace two dynamic device groups from [LAB-1.04](../../01-Prepare-Infrastructure/labs/LAB-1.04-dynamic-device-groups.md) with *All devices + filter* assignments, and argue the pros and cons (evaluation time, reuse in other Microsoft services).
 
 ## Knowledge check
 

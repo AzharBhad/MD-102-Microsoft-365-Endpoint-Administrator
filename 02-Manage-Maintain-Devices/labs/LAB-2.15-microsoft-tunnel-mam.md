@@ -109,7 +109,7 @@ sudo mst-cli server show status
 
 ## Stretch challenge
 
-Configure a **trusted root certificate** for Edge in the Tunnel for MAM app config so Edge trusts an internal site signed by your Cloud PKI (LAB-2.14).
+Configure a **trusted root certificate** for Edge in the Tunnel for MAM app config so Edge trusts an internal site signed by your Cloud PKI ([LAB-2.14](LAB-2.14-cloud-pki-scep.md)).
 
 ## Knowledge check
 

@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
-- Managed Google Play bound (LAB-1.06). An Android Enterprise device optional.
+- Managed Google Play bound ([LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md)). An Android Enterprise device optional.
 - *(Apple)* ABM access with the Content Manager role, and ADE-enrolled iOS device optional.
 
 ## Required licenses
@@ -58,7 +58,7 @@ Assign Outlook (VPP) **Required** → **License type: Device** → target corpor
 
 ### Step 6 - Company Portal via VPP for ADE
 
-Get **Intune Company Portal** in Apps and Books → device licensing → set it in the ADE profile (*Install Company Portal with VPP* = Yes, token selected) from LAB-1.07.
+Get **Intune Company Portal** in Apps and Books → device licensing → set it in the ADE profile (*Install Company Portal with VPP* = Yes, token selected) from [LAB-1.07](../../01-Prepare-Infrastructure/labs/LAB-1.07-apple-business-manager-ade.md).
 
 **Expected result:** Company Portal installs during ADE Setup Assistant.
 

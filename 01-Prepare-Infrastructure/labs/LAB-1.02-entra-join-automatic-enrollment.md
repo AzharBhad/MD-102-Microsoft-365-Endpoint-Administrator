@@ -10,7 +10,7 @@
 
 - Hyper-V VM `CONTOSO-LAB-01` (Windows 11 Enterprise/Pro) at OOBE or a fresh desktop with a local account.
 - `user1` licensed with Microsoft 365 E5 and member of `SG-Lab-Users`.
-- LAB-1.01 completed. Use a user **not** in `SG-Lab-Pilot-Users` (for example user3), or add this VM's serial as a corporate identifier.
+- [LAB-1.01](LAB-1.01-tenant-baseline-enrollment-settings.md) completed. Use a user **not** in `SG-Lab-Pilot-Users` (for example user3), or add this VM's serial as a corporate identifier.
 
 ## Required licenses
 

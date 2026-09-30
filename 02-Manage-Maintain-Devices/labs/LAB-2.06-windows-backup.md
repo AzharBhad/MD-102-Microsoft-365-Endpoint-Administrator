@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - CONTOSO-LAB-03 (Entra joined, user3 signed in, Windows 11 22H2+ with recent updates) as the **source**.
-- A clean VM at OOBE (for example the LAB-2.03 checkpoint of a registered VM, or CONTOSO-LAB-04 reset) as the **target**. It will be deployed with **user-driven** Autopilot or OOBE Entra join.
+- A clean VM at OOBE (for example the [LAB-2.03](LAB-2.03-autopilot-preprovisioning-self-deploying.md) checkpoint of a registered VM, or CONTOSO-LAB-04 reset) as the **target**. It will be deployed with **user-driven** Autopilot or OOBE Entra join.
 - Intune Service Administrator (Intune Administrator) role.
 
 ## Required licenses
@@ -38,7 +38,7 @@ As user3 on CONTOSO-LAB-03: change the wallpaper, set dark mode, add a keyboard 
 
 ### Step 4 - Check the ESP setting
 
-Your ESP profile (LAB-2.01) → **Install Windows quality updates** = Yes.
+Your ESP profile ([LAB-2.01](LAB-2.01-autopilot-user-driven.md)) → **Install Windows quality updates** = Yes.
 
 **Expected result:** Enabled.
 

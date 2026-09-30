@@ -11,7 +11,7 @@
 ## Prerequisites
 
 - A test VM (for example, CONTOSO-LAB-04) enrolled, with a checkpoint.
-- A Win32 app deployable via Intune (7-Zip from LAB-2.12 or LAB-4.01).
+- A Win32 app deployable via Intune (7-Zip from [LAB-2.12](../../02-Manage-Maintain-Devices/labs/LAB-2.12-enterprise-app-catalog.md) or [LAB-4.01](../../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md)).
 - A "rogue" portable EXE downloaded manually (for example, a portable utility not installed via Intune).
 
 ## Required licenses

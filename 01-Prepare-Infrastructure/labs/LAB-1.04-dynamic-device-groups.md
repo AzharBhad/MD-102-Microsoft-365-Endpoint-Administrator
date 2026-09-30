@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- CONTOSO-LAB-01 (Entra joined, corporate) and CONTOSO-LAB-02 (registered, personal) from LAB-1.02/1.03.
+- CONTOSO-LAB-01 (Entra joined, corporate) and CONTOSO-LAB-02 (registered, personal) from [LAB-1.02](LAB-1.02-entra-join-automatic-enrollment.md)/1.03.
 - Microsoft Graph PowerShell SDK (`Install-Module Microsoft.Graph -Scope CurrentUser`).
 
 ## Required licenses
@@ -38,7 +38,7 @@ Create `DG-Lab-Autopilot` with:
 (device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))
 ```
 
-**Expected result:** 0 members for now. Autopilot devices appear after LAB-2.01.
+**Expected result:** 0 members for now. Autopilot devices appear after [LAB-2.01](../../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md).
 
 ### Step 3 - Group-tag group
 
@@ -48,7 +48,7 @@ Create `DG-Lab-Autopilot-Sales` with:
 (device.devicePhysicalIDs -any (_ -eq "[OrderID]:Sales"))
 ```
 
-**Expected result:** Group created. You'll import a device with group tag `Sales` in LAB-2.01.
+**Expected result:** Group created. You'll import a device with group tag `Sales` in [LAB-2.01](../../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md).
 
 ### Step 4 - Create a group with Graph PowerShell
 
@@ -77,7 +77,7 @@ Edit `DG-Lab-Windows11` and change `Windows` to `Windwos`. Validate with LAB-01.
 |---|---|
 | DG-Lab-Windows-Corporate | CONTOSO-LAB-01 |
 | DG-Lab-Windows11 | CONTOSO-LAB-01, CONTOSO-LAB-02 (if Windows 11) |
-| DG-Lab-Autopilot | none (until LAB-2.01) |
+| DG-Lab-Autopilot | none (until [LAB-2.01](../../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md)) |
 
 ## Troubleshooting
 

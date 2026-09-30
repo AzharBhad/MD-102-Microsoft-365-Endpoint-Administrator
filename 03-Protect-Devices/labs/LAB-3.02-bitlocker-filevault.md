@@ -72,7 +72,7 @@ Force recovery mode: `manage-bde -forcerecovery C:` → restart → enter the 48
 
 ### Step 7 - Compliance
 
-Confirm `CP-Windows-Baseline` (LAB-1.11) *Require encryption* now reports **Compliant**.
+Confirm `CP-Windows-Baseline` ([LAB-1.11](../../01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md)) *Require encryption* now reports **Compliant**.
 
 ### Step 8 - FileVault (review/optional Mac)
 

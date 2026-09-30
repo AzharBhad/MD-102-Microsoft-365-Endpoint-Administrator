@@ -8,9 +8,9 @@
 
 ## Prerequisites
 
-- A lab Google account (for example `md102lab@gmail.com`).
+- A dedicated lab Google account that you create for this purpose (not a personal account). This repo writes it as `lab-admin@example.com`.
 - An Android 12+ phone you can **factory reset**, or an Android Studio emulator image **with Google Play** (work profile BYOD and QR provisioning work on Play images).
-- LAB-1.01 completed (Android device administrator blocked for pilot users).
+- [LAB-1.01](LAB-1.01-tenant-baseline-enrollment-settings.md) completed (Android device administrator blocked for pilot users).
 
 ## Required licenses
 
@@ -82,7 +82,7 @@ On a *non-reset* device: browser → `https://aka.ms/enrollmyandroid` (or Compan
 
 ## Cleanup / rollback
 
-Retire/wipe test devices in Intune → delete their objects. Keep profiles and Managed Google Play binding for LAB-1.08 and domain 4.
+Retire/wipe test devices in Intune → delete their objects. Keep profiles and Managed Google Play binding for [LAB-1.08](LAB-1.08-knox-zero-touch-enrollment.md) and domain 4.
 
 ## Stretch challenge
 

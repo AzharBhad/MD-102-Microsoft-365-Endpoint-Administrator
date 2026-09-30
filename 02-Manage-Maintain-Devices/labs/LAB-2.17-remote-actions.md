@@ -8,10 +8,10 @@
 
 ## Prerequisites
 
-- CONTOSO-LAB-01 (LAPS from LAB-1.13) and CONTOSO-LAB-03.
-- A **disposable** device for retire/wipe (for example the LAB-2.02 VM, or CONTOSO-LAB-02 registered).
-- BitLocker enabled with key escrow to Entra ID and **client-driven recovery password rotation** enabled (complete LAB-3.02 first, or enable BitLocker manually and back up the key: `BackupToAAD-BitLockerKeyProtector`).
-- Multi Admin Approval for Device actions **removed or ready** (LAB-1.10) - otherwise expect approval requests.
+- CONTOSO-LAB-01 (LAPS from [LAB-1.13](../../01-Prepare-Infrastructure/labs/LAB-1.13-windows-laps-local-groups.md)) and CONTOSO-LAB-03.
+- A **disposable** device for retire/wipe (for example the [LAB-2.02](LAB-2.02-autopilot-device-preparation.md) VM, or CONTOSO-LAB-02 registered).
+- BitLocker enabled with key escrow to Entra ID and **client-driven recovery password rotation** enabled (complete [LAB-3.02](../../03-Protect-Devices/labs/LAB-3.02-bitlocker-filevault.md) first, or enable BitLocker manually and back up the key: `BackupToAAD-BitLockerKeyProtector`).
+- Multi Admin Approval for Device actions **removed or ready** ([LAB-1.10](../../01-Prepare-Infrastructure/labs/LAB-1.10-multi-admin-approval.md)) - otherwise expect approval requests.
 
 ## Required licenses
 

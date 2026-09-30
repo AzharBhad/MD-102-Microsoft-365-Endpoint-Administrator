@@ -47,7 +47,7 @@ Required → `DG-Lab-Windows-Corporate`. Available → `SG-Lab-Users`.
 
 ### Step 5 - Use in Autopilot device preparation
 
-Edit `APDP-UserDriven-Lab` (LAB-2.02) → add the 7-Zip catalog app to the allowed apps list.
+Edit `APDP-UserDriven-Lab` ([LAB-2.02](LAB-2.02-autopilot-device-preparation.md)) → add the 7-Zip catalog app to the allowed apps list.
 
 **Expected result:** Saved. Catalog apps are valid device preparation apps.
 
@@ -70,7 +70,7 @@ Uninstall assignment → then delete the app if not needed.
 
 ## Stretch challenge
 
-Compare deployment effort for the same app via **Microsoft Store (WinGet)**, **Enterprise App Catalog**, and **manual Win32 packaging** (LAB-4.01). Which would you choose for Chrome, and why?
+Compare deployment effort for the same app via **Microsoft Store (WinGet)**, **Enterprise App Catalog**, and **manual Win32 packaging** ([LAB-4.01](../../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md)). Which would you choose for Chrome, and why?
 
 ## Knowledge check
 

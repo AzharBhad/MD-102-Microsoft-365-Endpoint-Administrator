@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- Windows data connector enabled (LAB-2.04).
+- Windows data connector enabled ([LAB-2.04](../../02-Manage-Maintain-Devices/labs/LAB-2.04-windows-11-upgrade.md)).
 - Groups: `SG-Lab-Update-Pilot` (CONTOSO-LAB-01), `SG-Lab-Update-Broad` (CONTOSO-LAB-03).
 
 ## Required licenses
@@ -80,7 +80,7 @@ Values match your rings.
 
 ## Cleanup / rollback
 
-Keep rings for LAB-3.08 (Autopatch will create its own - you'll compare them). Delete `QU-Expedite-Latest` after it completes.
+Keep rings for [LAB-3.08](LAB-3.08-autopatch-hotpatch.md) (Autopatch will create its own - you'll compare them). Delete `QU-Expedite-Latest` after it completes.
 
 ## Stretch challenge
 

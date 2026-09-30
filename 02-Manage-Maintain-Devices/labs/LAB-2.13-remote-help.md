@@ -10,7 +10,7 @@
 
 - helpdesk1 (helper) and user3 (sharer) licensed for Remote Help.
 - Two Windows devices: the helper's (for example CONTOSO-LAB-01) and the sharer's (CONTOSO-LAB-03).
-- Custom role from LAB-1.09 or a new one.
+- Custom role from [LAB-1.09](../../01-Prepare-Infrastructure/labs/LAB-1.09-custom-roles-scope-tags.md) or a new one.
 
 ## Required licenses
 
@@ -33,7 +33,7 @@ Edit role `Lab - EU Tier1 Helpdesk` → **Remote Help app** permissions: *View s
 ### Step 3 - Package and deploy the app
 
 1. Download `RemoteHelpInstaller.exe` from `https://aka.ms/downloadremotehelp`.
-2. Package with IntuneWinAppUtil (LAB-4.01 method): install `RemoteHelpInstaller.exe /quiet acceptTerms=1`, uninstall `RemoteHelpInstaller.exe /uninstall /quiet acceptTerms=1`, detection: file `C:\Program Files\Remote help\RemoteHelp.exe` exists.
+2. Package with IntuneWinAppUtil ([LAB-4.01](../../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md) method): install `RemoteHelpInstaller.exe /quiet acceptTerms=1`, uninstall `RemoteHelpInstaller.exe /uninstall /quiet acceptTerms=1`, detection: file `C:\Program Files\Remote help\RemoteHelp.exe` exists.
 3. Assign Required to `DG-Lab-Windows-Corporate`.
 
 **Expected result:** Remote Help appears in the Start menu on both devices.

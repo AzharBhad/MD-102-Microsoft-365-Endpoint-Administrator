@@ -13,18 +13,18 @@ PowerShell and Microsoft Graph samples used by the labs. They're written for **l
 | Folder | Script | What it does | Used in |
 |---|---|---|---|
 | setup | [New-LabUsersAndGroups.ps1](setup/New-LabUsersAndGroups.ps1) | Creates the standard lab users and groups in a test tenant | [Lab setup](../00-Getting-Started/lab-environment-setup.md) |
-| graph | [New-DynamicDeviceGroup.ps1](graph/New-DynamicDeviceGroup.ps1) | Creates a dynamic device security group | LAB-1.04 |
-| graph | [Get-DeviceJoinTypeReport.ps1](graph/Get-DeviceJoinTypeReport.ps1) | Summarizes Entra devices by join type, management and staleness | LAB-1.03 |
+| graph | [New-DynamicDeviceGroup.ps1](graph/New-DynamicDeviceGroup.ps1) | Creates a dynamic device security group | [LAB-1.04](../01-Prepare-Infrastructure/labs/LAB-1.04-dynamic-device-groups.md) |
+| graph | [Get-DeviceJoinTypeReport.ps1](graph/Get-DeviceJoinTypeReport.ps1) | Summarizes Entra devices by join type, management and staleness | [LAB-1.03](../01-Prepare-Infrastructure/labs/LAB-1.03-register-byod-compare-join-types.md) |
 | graph | [Get-NoncompliantDevices.ps1](graph/Get-NoncompliantDevices.ps1) | Lists noncompliant devices with failing policies | [1.3.4](../01-Prepare-Infrastructure/docs/1.3.4-compliance-policies.md) |
-| graph | [Invoke-BulkDeviceAction.ps1](graph/Invoke-BulkDeviceAction.ps1) | Runs a remote action (sync, restart, ...) on many devices | LAB-2.17, LAB-5.01 |
-| graph | [Get-EncryptionStatusReport.ps1](graph/Get-EncryptionStatusReport.ps1) | BitLocker/FileVault encryption state report | LAB-3.02 |
-| graph | [Export-IntuneReport.ps1](graph/Export-IntuneReport.ps1) | Exports any Intune report via the Graph `exportJobs` API | LAB-5.01, LAB-5.04 |
-| autopilot | [Export-AutopilotHash.ps1](autopilot/Export-AutopilotHash.ps1) | Collects the local hardware hash into an Intune import CSV | LAB-2.01 |
-| security | [Test-HotpatchReadiness.ps1](security/Test-HotpatchReadiness.ps1) | Checks local Hotpatch prerequisites | LAB-3.08 |
-| apps | [New-IntuneWinAppPackage.ps1](apps/New-IntuneWinAppPackage.ps1) | Wraps a source folder into `.intunewin` (+ optional detection script) | LAB-4.01 |
-| compliance | [Discover-ContosoCompliance.ps1](compliance/Discover-ContosoCompliance.ps1) + [contoso-compliance-rules.json](compliance/contoso-compliance-rules.json) | Custom compliance discovery script and JSON rules | LAB-5.03 |
-| remediations | [Detect-WindowsTempSize.ps1](remediations/Detect-WindowsTempSize.ps1) / [Remediate-WindowsTempSize.ps1](remediations/Remediate-WindowsTempSize.ps1) | Remediations detection/remediation pair | LAB-5.05 |
-| samples | [sample-gpo-report.xml](samples/sample-gpo-report.xml) | Fictitious GPO backup for Group Policy analytics | LAB-2.07 |
+| graph | [Invoke-BulkDeviceAction.ps1](graph/Invoke-BulkDeviceAction.ps1) | Runs a remote action (sync, restart, ...) on many devices | [LAB-2.17](../02-Manage-Maintain-Devices/labs/LAB-2.17-remote-actions.md), [LAB-5.01](../05-Optimize-Endpoint-Operations/labs/LAB-5.01-graph-powershell-automation.md) |
+| graph | [Get-EncryptionStatusReport.ps1](graph/Get-EncryptionStatusReport.ps1) | BitLocker/FileVault encryption state report | [LAB-3.02](../03-Protect-Devices/labs/LAB-3.02-bitlocker-filevault.md) |
+| graph | [Export-IntuneReport.ps1](graph/Export-IntuneReport.ps1) | Exports any Intune report via the Graph `exportJobs` API | [LAB-5.01](../05-Optimize-Endpoint-Operations/labs/LAB-5.01-graph-powershell-automation.md), [LAB-5.04](../05-Optimize-Endpoint-Operations/labs/LAB-5.04-reports-workbooks-export.md) |
+| autopilot | [Export-AutopilotHash.ps1](autopilot/Export-AutopilotHash.ps1) | Collects the local hardware hash into an Intune import CSV | [LAB-2.01](../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) |
+| security | [Test-HotpatchReadiness.ps1](security/Test-HotpatchReadiness.ps1) | Checks local Hotpatch prerequisites | [LAB-3.08](../03-Protect-Devices/labs/LAB-3.08-autopatch-hotpatch.md) |
+| apps | [New-IntuneWinAppPackage.ps1](apps/New-IntuneWinAppPackage.ps1) | Wraps a source folder into `.intunewin` (+ optional detection script) | [LAB-4.01](../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md) |
+| compliance | [Discover-ContosoCompliance.ps1](compliance/Discover-ContosoCompliance.ps1) + [contoso-compliance-rules.json](compliance/contoso-compliance-rules.json) | Custom compliance discovery script and JSON rules | [LAB-5.03](../05-Optimize-Endpoint-Operations/labs/LAB-5.03-custom-compliance.md) |
+| remediations | [Detect-WindowsTempSize.ps1](remediations/Detect-WindowsTempSize.ps1) / [Remediate-WindowsTempSize.ps1](remediations/Remediate-WindowsTempSize.ps1) | Remediations detection/remediation pair | [LAB-5.05](../05-Optimize-Endpoint-Operations/labs/LAB-5.05-endpoint-analytics-remediations.md) |
+| samples | [sample-gpo-report.xml](samples/sample-gpo-report.xml) | Fictitious GPO backup for Group Policy analytics | [LAB-2.07](../02-Manage-Maintain-Devices/labs/LAB-2.07-windows-settings-catalog-admx-gpa.md) |
 
 ## Script conventions
 

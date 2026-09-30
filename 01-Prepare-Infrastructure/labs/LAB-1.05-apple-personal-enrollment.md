@@ -93,7 +93,7 @@ Intune Plan 1 for user5. Entra ID P1.
 
 - iPhone: **Settings > General > VPN & Device Management > [profile] > Remove Management** (or Intune **Retire**).
 - Mac: remove the management profile, or Intune **Retire**.
-- Keep the APNs certificate for LAB-1.07 and LAB-2.08.
+- Keep the APNs certificate for [LAB-1.07](LAB-1.07-apple-business-manager-ade.md) and [LAB-2.08](../../02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md).
 
 ## Stretch challenge
 

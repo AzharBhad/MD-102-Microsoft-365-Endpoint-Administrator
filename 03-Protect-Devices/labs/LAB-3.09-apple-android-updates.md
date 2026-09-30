@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - APNs + an Apple device optional (iOS 17+ / macOS 14+).
-- Android corporate device optional (LAB-1.06).
+- Android corporate device optional ([LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md)).
 - FOTA connectors need Zebra/Samsung entitlements - walkthrough otherwise.
 
 ## Required licenses
@@ -64,7 +64,7 @@ Assign to `SG-Lab-ETG-AE-FullyManaged`.
 
 ### Step 6 - Compliance backstop
 
-Edit `CP-iOS-Baseline` (LAB-1.11) → *Minimum OS version* = the target from Step 1. Create/Edit an Android compliance policy → *Minimum security patch level* = a recent date.
+Edit `CP-iOS-Baseline` ([LAB-1.11](../../01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md)) → *Minimum OS version* = the target from Step 1. Create/Edit an Android compliance policy → *Minimum security patch level* = a recent date.
 
 **Expected result:** Devices that miss deadlines become noncompliant → CA blocks access.
 

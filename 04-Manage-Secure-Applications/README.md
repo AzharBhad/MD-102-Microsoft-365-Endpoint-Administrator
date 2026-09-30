@@ -30,7 +30,7 @@ App lifecycle in Intune: packaging and deploying Win32, LOB and store apps, Micr
 
 `4.01 → 4.02 → 4.03 → 4.04 → 4.05 → 4.06 → 4.07 → 4.08`
 
-LAB-4.03 reuses the Autopilot setup from Domain 2. LAB-4.08 reuses the unenrolled phone from LAB-4.07.
+[LAB-4.03](labs/LAB-4.03-m365-apps-intune-odt-autopilot.md) reuses the Autopilot setup from Domain 2. [LAB-4.08](labs/LAB-4.08-app-configuration-policies.md) reuses the unenrolled phone from [LAB-4.07](labs/LAB-4.07-app-protection-conditional-access.md).
 
 ## Practice
 

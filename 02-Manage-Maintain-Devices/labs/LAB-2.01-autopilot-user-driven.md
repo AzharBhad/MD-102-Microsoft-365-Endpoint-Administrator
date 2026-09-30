@@ -9,9 +9,9 @@
 ## Prerequisites
 
 - Hyper-V Gen2 VM `CONTOSO-LAB-03` with vTPM, 4 GB static RAM, Windows 11 Enterprise ISO, **checkpoint at OOBE**.
-- `DG-Lab-Autopilot` and `DG-Lab-Autopilot-Sales` groups (LAB-1.04).
+- `DG-Lab-Autopilot` and `DG-Lab-Autopilot-Sales` groups ([LAB-1.04](../../01-Prepare-Infrastructure/labs/LAB-1.04-dynamic-device-groups.md)).
 - Entra **Company branding** configured (logo + sign-in text).
-- At least one Win32 app to track (Company Portal from the Microsoft Store (new) works, or the 7-Zip Win32 app from LAB-4.01/LAB-2.12).
+- At least one Win32 app to track (Company Portal from the Microsoft Store (new) works, or the 7-Zip Win32 app from [LAB-4.01](../../04-Manage-Secure-Applications/labs/LAB-4.01-win32-packaging-troubleshooting.md)/LAB-2.12).
 
 ## Required licenses
 
@@ -48,7 +48,7 @@ Copy `C:\HWID.csv` off the VM (for example, enable enhanced session and copy, or
 - Deployment mode: **User-Driven**. Join: **Microsoft Entra joined**
 - License terms/Privacy/Change account options: **Hide**
 - User account type: **Standard**
-- Allow pre-provisioned deployment: **Yes** (reused in LAB-2.03)
+- Allow pre-provisioned deployment: **Yes** (reused in [LAB-2.03](LAB-2.03-autopilot-preprovisioning-self-deploying.md))
 - **Apply device name template: Yes** → `CON-%SERIAL%`
 - Assign: `DG-Lab-Autopilot-Sales`
 

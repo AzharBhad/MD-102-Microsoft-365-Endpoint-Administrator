@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- Microsoft 365 Apps installed on at least one device (LAB-4.03) and signed in by user3.
+- Microsoft 365 Apps installed on at least one device ([LAB-4.03](LAB-4.03-m365-apps-intune-odt-autopilot.md)) and signed in by user3.
 - Optional: a personal/unenrolled Windows VM with Office signed in as user4.
 - **Office Apps Administrator** role assigned to your admin (or use Intune/Global Administrator).
 
@@ -65,7 +65,7 @@ Enable the profile (lab) and view the device list and update status.
 
 ### Step 6 - Office Customization Tool
 
-**Customization > Device configuration** → open the configuration from LAB-4.03 → note you can edit and re-export it.
+**Customization > Device configuration** → open the configuration from [LAB-4.03](LAB-4.03-m365-apps-intune-odt-autopilot.md) → note you can edit and re-export it.
 
 **Expected result:** You know where the ODT XML lives.
 

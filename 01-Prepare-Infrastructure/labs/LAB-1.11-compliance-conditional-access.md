@@ -89,7 +89,7 @@ Switch CA010 to **On**. Retry from CONTOSO-LAB-02 in Edge.
 
 | Check | Expected |
 |---|---|
-| LAB-01 compliance | Compliant, or in grace then noncompliant if not encrypted (encrypt it in LAB-3.02) |
+| LAB-01 compliance | Compliant, or in grace then noncompliant if not encrypted (encrypt it in [LAB-3.02](../../03-Protect-Devices/labs/LAB-3.02-bitlocker-filevault.md)) |
 | LAB-02 Outlook on the web access | Blocked when CA is On |
 | Break-glass sign-in | Not affected |
 

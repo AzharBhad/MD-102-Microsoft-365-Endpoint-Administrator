@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- LAB-2.01 Autopilot VM with an OOBE checkpoint.
+- [LAB-2.01](../../02-Manage-Maintain-Devices/labs/LAB-2.01-autopilot-user-driven.md) Autopilot VM with an OOBE checkpoint.
 - Office Deployment Tool (`setup.exe`) downloaded from the Microsoft Download Center.
 - Users licensed for Microsoft 365 Apps (E5 includes them).
 

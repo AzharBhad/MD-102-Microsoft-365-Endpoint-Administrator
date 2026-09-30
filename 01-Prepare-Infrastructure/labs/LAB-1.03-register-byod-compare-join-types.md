@@ -4,13 +4,13 @@
 |---|---|---|---|
 | LAB-1.03 | 1.1.1, 1.1.3 | 45 min | Beginner |
 
-**Goal:** Register a "personal" Windows device and a mobile device, then compare the device objects with the Entra joined device from LAB-1.02 so you can pick the right join type in scenario questions.
+**Goal:** Register a "personal" Windows device and a mobile device, then compare the device objects with the Entra joined device from [LAB-1.02](LAB-1.02-entra-join-automatic-enrollment.md) so you can pick the right join type in scenario questions.
 
 ## Prerequisites
 
 - A second Windows 11 VM `CONTOSO-LAB-02` signed in with a **local account** (represents a personal PC).
 - Optional: an iPhone or Android phone with Microsoft Authenticator.
-- LAB-1.02 completed (CONTOSO-LAB-01 is Entra joined).
+- [LAB-1.02](LAB-1.02-entra-join-automatic-enrollment.md) completed (CONTOSO-LAB-01 is Entra joined).
 
 ## Required licenses
 

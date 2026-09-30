@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - Two or more Windows VMs on the same Hyper-V switch (so they can peer).
-- LAB-3.07/3.08 update policies in place.
+- [LAB-3.07](LAB-3.07-windows-update-rings-feature-quality.md)/3.08 update policies in place.
 
 ## Required licenses
 
@@ -66,7 +66,7 @@ Compare **Update rings > UR-Pilot > Device status** (policy succeeded) with the 
 
 Export the quality update report to CSV (**Export**).
 
-**Expected result:** A CSV for your patch KPI (used again in LAB-5.04).
+**Expected result:** A CSV for your patch KPI (used again in [LAB-5.04](../../05-Optimize-Endpoint-Operations/labs/LAB-5.04-reports-workbooks-export.md)).
 
 ## Validation
 

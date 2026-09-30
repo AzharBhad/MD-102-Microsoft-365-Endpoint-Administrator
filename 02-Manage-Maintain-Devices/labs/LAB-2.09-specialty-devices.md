@@ -10,8 +10,8 @@
 
 ## Prerequisites
 
-- Autopilot knowledge (LAB-2.01/2.03).
-- Managed Google Play bound (LAB-1.06).
+- Autopilot knowledge ([LAB-2.01](LAB-2.01-autopilot-user-driven.md)/2.03).
+- Managed Google Play bound ([LAB-1.06](../../01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md)).
 
 ## Required licenses
 
@@ -23,7 +23,7 @@ Intune Plan 1 for the objects. Specialty device management needs **Intune Plan 2
 
 1. Dynamic device group `DG-MTR-Windows`: `(device.devicePhysicalIDs -any (_ -eq "[OrderID]:MTR"))`.
 2. **Tenant administration > Filters > Create** → `WIN-EXCL-MTR` → Windows → rule `(device.deviceName -startsWith "MTR-")`.
-3. Edit `WIN-Lab-Baseline` (LAB-2.07) → assignment → filter `WIN-EXCL-MTR` in **Exclude** mode.
+3. Edit `WIN-Lab-Baseline` ([LAB-2.07](LAB-2.07-windows-settings-catalog-admx-gpa.md)) → assignment → filter `WIN-EXCL-MTR` in **Exclude** mode.
 
 **Expected result:** The baseline shows the exclude filter on its assignment.
 

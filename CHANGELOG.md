@@ -45,6 +45,12 @@ Domain weightings are unchanged. Microsoft publishes the change log only at skil
 
 ## [Unreleased]
 
+Nothing yet. Open an issue if the study guide changes.
+
+## [1.0.0] - 2026-09-30
+
+First complete release: all 83 objectives in the October 27, 2026 outline have a doc, a lab and practice questions.
+
 ### Added
 
 - Repository foundation: README, contribution guide, issue/PR templates, markdownlint and lychee link-check workflows.
@@ -54,4 +60,10 @@ Domain weightings are unchanged. Microsoft publishes the change log only at skil
 - **Domain 3 - Protect devices:** 15 docs (3.1.1-3.2.7), 10 labs (LAB-3.01-3.10), 26 practice questions, encryption status and Hotpatch readiness scripts, endpoint security stack diagram.
 - **Domain 4 - Manage and secure applications:** 12 docs (4.1.1-4.2.3), 8 labs (LAB-4.01-4.08), 24 practice questions, Win32 packaging script, app protection flow diagram.
 - **Domain 5 - Optimize endpoint operations:** 11 docs (5.1.1-5.2.6), 6 labs (LAB-5.01-5.06), 26 practice questions, Graph report export, custom compliance and remediation sample scripts, endpoint operations monitoring diagram.
-- **Corrected:** Security Copilot agent status (Device Offboarding Agent removed June 1, 2026) and Vulnerability Remediation Agent prerequisites (no Entra ID P2 requirement) in Getting Started and earlier domain docs.
+- **Study aids:** study roadmap, 8-week study plan, Configuration Manager context note, 8 cheat sheets, troubleshooting references (log locations, error codes, flows), 50-question weighted mock exam, glossary, resources, full progress tracker (83 objectives, 55 labs), scripts catalogue.
+- Cross-references between docs and labs are now links throughout.
+
+### Fixed
+
+- Security Copilot agent status (Device Offboarding Agent removed June 1, 2026) and Vulnerability Remediation Agent prerequisites (no Entra ID P2 requirement).
+- App assignment intent conflicts: **Required beats Uninstall** (Uninstall only beats Available), and Win32 apps support *Available* assignments to device groups (4.1.2, LAB-4.02).

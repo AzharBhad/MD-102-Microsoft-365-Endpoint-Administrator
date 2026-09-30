@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - An **enrolled** iOS (or Android Enterprise) device with Outlook deployed by Intune (VPP/App Store or Managed Google Play).
-- An **unenrolled** phone with Edge (from LAB-4.07).
+- An **unenrolled** phone with Edge (from [LAB-4.07](LAB-4.07-app-protection-conditional-access.md)).
 
 ## Required licenses
 
@@ -82,7 +82,7 @@ Keep policies, or unassign if they interfere.
 
 ## Stretch challenge
 
-Configure **Managed Home Screen** with an app configuration policy (dedicated device from LAB-2.08) to show a sign-in screen and a session PIN.
+Configure **Managed Home Screen** with an app configuration policy (dedicated device from [LAB-2.08](../../02-Manage-Maintain-Devices/labs/LAB-2.08-mobile-macos-configuration-profiles.md)) to show a sign-in screen and a session PIN.
 
 ## Knowledge check
 

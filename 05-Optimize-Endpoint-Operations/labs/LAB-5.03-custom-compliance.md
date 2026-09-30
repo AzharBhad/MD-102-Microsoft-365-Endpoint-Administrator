@@ -58,7 +58,7 @@ In Intune: device → **Device compliance** → `CP-WIN-CustomChecks` → per-se
 
 Edit the JSON: change the `DiskFreePct` operand from `10` to `95` → upload the new JSON to the policy → **Check compliance** again.
 
-**Expected result:** Device becomes **Not compliant**. Company Portal shows the **remediation string** title and description from the JSON with the *More info* link. If Conditional Access requires compliant devices (LAB-1.11), access to Microsoft 365 is blocked from this device.
+**Expected result:** Device becomes **Not compliant**. Company Portal shows the **remediation string** title and description from the JSON with the *More info* link. If Conditional Access requires compliant devices ([LAB-1.11](../../01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md)), access to Microsoft 365 is blocked from this device.
 
 ### Step 6 - Restore and review logs
 
@@ -90,7 +90,7 @@ Unassign `CP-WIN-CustomChecks` (or keep it in report-only style without CA). A d
 
 ## Stretch challenge
 
-Add a rule for **Windows version** using `DataType` = `Version` and `GreaterEquals` (for example, 10.0.26100), returned by the script from `[Environment]::OSVersion.Version`. Then pair it with a **remediation** (LAB-5.05) that fixes one of the conditions automatically.
+Add a rule for **Windows version** using `DataType` = `Version` and `GreaterEquals` (for example, 10.0.26100), returned by the script from `[Environment]::OSVersion.Version`. Then pair it with a **remediation** ([LAB-5.05](LAB-5.05-endpoint-analytics-remediations.md)) that fixes one of the conditions automatically.
 
 ## Knowledge check
 

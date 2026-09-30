@@ -38,7 +38,7 @@ Settings catalog → **System > Allow Telemetry** = *Basic (Required)* or higher
 
 ### Step 4 - Update ring (behavior)
 
-If you don't already have one (LAB-3.07 builds it fully): **Devices > Windows updates > Update rings > Create** → feature update deferral **0**, deadline for feature updates **2** days, grace period **1** → assign to the device group.
+If you don't already have one ([LAB-3.07](../../03-Protect-Devices/labs/LAB-3.07-windows-update-rings-feature-quality.md) builds it fully): **Devices > Windows updates > Update rings > Create** → feature update deferral **0**, deadline for feature updates **2** days, grace period **1** → assign to the device group.
 
 **Expected result:** Ring assigned.
 
@@ -73,7 +73,7 @@ The Feature update report shows **Installed** for the device.
 
 ## Cleanup / rollback
 
-Keep the policy for LAB-3.07. Feature updates can be rolled back from **Settings > System > Recovery** within 10 days, or via the update ring *Uninstall* action.
+Keep the policy for [LAB-3.07](../../03-Protect-Devices/labs/LAB-3.07-windows-update-rings-feature-quality.md). Feature updates can be rolled back from **Settings > System > Recovery** within 10 days, or via the update ring *Uninstall* action.
 
 ## Stretch challenge
 

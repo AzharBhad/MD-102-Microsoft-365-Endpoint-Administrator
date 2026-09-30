@@ -11,7 +11,7 @@
 ## Prerequisites
 
 - 2+ Windows devices enrolled for at least 24 hours.
-- Scope tag `Lab-EU` (LAB-1.09).
+- Scope tag `Lab-EU` ([LAB-1.09](../../01-Prepare-Infrastructure/labs/LAB-1.09-custom-roles-scope-tags.md)).
 
 ## Required licenses
 
@@ -80,7 +80,7 @@ Keep - Domain 5 labs build on this data.
 
 ## Stretch challenge
 
-Run **device query for multiple devices** (LAB-2.18) to find devices whose battery capacity is below 80% of design capacity, and add them to a group.
+Run **device query for multiple devices** ([LAB-2.18](LAB-2.18-device-query-diagnostics.md)) to find devices whose battery capacity is below 80% of design capacity, and add them to a group.
 
 ## Knowledge check
 

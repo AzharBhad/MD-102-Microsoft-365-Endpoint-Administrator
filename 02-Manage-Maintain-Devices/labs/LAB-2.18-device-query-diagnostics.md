@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - CONTOSO-LAB-01 online, corporate-owned.
-- Properties catalog deployed (LAB-2.16) and inventory collected.
+- Properties catalog deployed ([LAB-2.16](LAB-2.16-advanced-analytics.md)) and inventory collected.
 - Advanced Analytics active.
 
 ## Required licenses

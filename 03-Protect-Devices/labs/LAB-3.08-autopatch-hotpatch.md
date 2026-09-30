@@ -10,7 +10,7 @@
 
 - Microsoft 365 E5 (Windows Enterprise E5) - Autopatch features available without activation.
 - A Windows 11 **24H2+ Enterprise** VM with **VBS running** for Hotpatch. Hyper-V: `Set-VMProcessor -VMName <vm> -ExposeVirtualizationExtensions $true`, then enable VBS/Memory integrity.
-- Remove LAB-3.07 ring assignments from these devices (avoid overlapping ring policies).
+- Remove [LAB-3.07](LAB-3.07-windows-update-rings-feature-quality.md) ring assignments from these devices (avoid overlapping ring policies).
 
 ## Required licenses
 
@@ -77,7 +77,7 @@ Autopatch group → **Release management / Releases** → pause quality updates 
 |---|---|
 | Autopatch group creation fails | Missing permissions (Intune Administrator / Autopatch admin), or devices belong to another Autopatch group |
 | Hotpatch not offered | Not on current baseline, VBS not running, Arm64 without CHPE disabled, or ineligible SKU |
-| Conflicting ring policies | Old LAB-3.07 rings still assigned - remove them |
+| Conflicting ring policies | Old [LAB-3.07](LAB-3.07-windows-update-rings-feature-quality.md) rings still assigned - remove them |
 
 ## Cleanup / rollback
 
