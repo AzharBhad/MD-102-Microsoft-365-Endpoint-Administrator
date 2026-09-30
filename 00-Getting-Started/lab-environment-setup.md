@@ -98,7 +98,7 @@ Required connectors (free): **Apple MDM Push certificate** (needs an Apple Accou
 
 - Microsoft 365 **E5/E7 paid** tenants get auto-provisioned capacity. Trial tenants may not be eligible for inclusion; check **Security Copilot portal > Owner settings** or the Intune **Agents** node.
 - Otherwise, provision **1 SCU** in the Azure portal only for the duration of LAB-5.02 and **delete the capacity immediately afterward**. Provisioned SCUs are billed every hour.
-- The Vulnerability Remediation Agent also needs Entra ID P2 and Defender Vulnerability Management data (onboard at least one VM to Defender for Endpoint in LAB-3.05 first).
+- The Vulnerability Remediation Agent also needs Defender Vulnerability Management data (Defender for Endpoint P2 or Defender Vulnerability Management Standalone). Onboard at least one VM to Defender for Endpoint in LAB-3.05 first.
 
 ## 7. Configuration Manager
 

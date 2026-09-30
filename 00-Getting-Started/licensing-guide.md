@@ -82,7 +82,7 @@ Starting July 2026 (gradual rollout, 30-day message-center notice per tenant):
 | Microsoft Defender Antivirus | Windows | Managed by Intune antivirus policies with any Intune license |
 | Defender for Endpoint Plan 1 | Microsoft 365 E3 | Next-gen protection, ASR, device control; no EDR investigation |
 | Defender for Endpoint Plan 2 | Microsoft 365 E5 / E7 | EDR, automated investigation, advanced hunting, Defender Vulnerability Management (core) |
-| Defender Vulnerability Management add-on | E5 add-on | Required by the Intune Vulnerability Remediation Agent |
+| Defender Vulnerability Management (in Defender for Endpoint P2, or Standalone) | E5, or standalone | Data source for the Intune Vulnerability Remediation Agent |
 
 ## Windows 365
 
@@ -95,7 +95,7 @@ Windows 365 is licensed **per user** separately from Microsoft 365: Windows 365 
 | Microsoft 365 **E5 / E7** | Auto-provisioned *Default Security Copilot Capacity*. **400 SCUs per month for every 1,000 paid user licenses**, up to 10,000 SCUs/month, no extra charge. Scales down for smaller tenants (400 licenses → 160 SCUs/month). Unused SCUs do not roll over. |
 | Everyone else | Provision SCUs in Azure (minimum 1 SCU); billed **per hour** whether used or not, plus optional overage. Check the [pricing page](https://www.microsoft.com/security/pricing/microsoft-security-copilot/). |
 
-Intune agents have extra prerequisites. For example, the Vulnerability Remediation Agent needs Intune Plan 1, Entra ID P2, and Defender Vulnerability Management.
+Intune agents have extra prerequisites. For example, the Vulnerability Remediation Agent needs Intune Plan 1, Security Copilot SCUs, and Defender Vulnerability Management data (from Defender for Endpoint P2 or Defender Vulnerability Management Standalone).
 
 > **Cost warning:** A provisioned SCU in a lab tenant is billed every hour until you delete the capacity. See [lab-environment-setup.md](lab-environment-setup.md#cost-avoidance-checklist).
 

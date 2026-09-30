@@ -41,7 +41,7 @@ Domain weightings are unchanged. Microsoft publishes the change log only at skil
 
 - **July 2026 licensing change:** Microsoft 365 E3 now includes Intune Plan 2, Remote Help, and Advanced Analytics; Microsoft 365 E5/E7 additionally include Endpoint Privilege Management, Microsoft Cloud PKI, and Enterprise App Management.
 - **Security Copilot** is included with Microsoft 365 E5 and E7 (monthly SCU allocation) since the rollout that began November 18, 2025.
-- **Intune agents:** the Policy Configuration Agent and Change Review Agent are no longer available in the Intune admin center after **August 31, 2026**. The Vulnerability Remediation Agent and Device Offboarding Agent remain. This repo covers the retired agents only as historical context.
+- **Intune agents:** the **Device Offboarding Agent** was removed from the Intune admin center on **June 1, 2026** (no new setups after April 30, 2026). The **Policy Configuration Agent** and **Change Review Agent** are no longer available after **August 31, 2026**. The **Vulnerability Remediation Agent** (preview) is the Intune agent that remains. This repo covers the retired agents only as historical context.
 
 ## [Unreleased]
 
@@ -53,3 +53,5 @@ Domain weightings are unchanged. Microsoft publishes the change log only at skil
 - **Domain 2 - Manage and maintain devices:** 27 docs (2.1.1-2.4.7), 18 labs (LAB-2.01-2.18), 40 practice questions, Autopilot hash export and bulk device action scripts, sample GPO report, Autopilot flow diagram.
 - **Domain 3 - Protect devices:** 15 docs (3.1.1-3.2.7), 10 labs (LAB-3.01-3.10), 26 practice questions, encryption status and Hotpatch readiness scripts, endpoint security stack diagram.
 - **Domain 4 - Manage and secure applications:** 12 docs (4.1.1-4.2.3), 8 labs (LAB-4.01-4.08), 24 practice questions, Win32 packaging script, app protection flow diagram.
+- **Domain 5 - Optimize endpoint operations:** 11 docs (5.1.1-5.2.6), 6 labs (LAB-5.01-5.06), 26 practice questions, Graph report export, custom compliance and remediation sample scripts, endpoint operations monitoring diagram.
+- **Corrected:** Security Copilot agent status (Device Offboarding Agent removed June 1, 2026) and Vulnerability Remediation Agent prerequisites (no Entra ID P2 requirement) in Getting Started and earlier domain docs.

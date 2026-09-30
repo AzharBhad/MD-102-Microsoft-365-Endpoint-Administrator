@@ -8,9 +8,9 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 | Coverage | Count |
 |---|---|
 | Objectives | 83 |
-| With a doc | 72 |
-| With a lab | 72 |
-| With practice questions | 72 |
+| With a doc | 83 |
+| With a lab | 83 |
+| With practice questions | 83 |
 
 ## Domain 1 - Prepare infrastructure for devices (20–25%)
 
@@ -153,19 +153,19 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 5.1.1 | Automate Intune management tasks by using PowerShell and Microsoft Graph | **MISSING** | **MISSING** | - |
-| 5.1.2 | Investigate threats identified by Security Copilot agents in Intune | **MISSING** | **MISSING** | - |
-| 5.1.3 | Analyze device performance by using Security Copilot agents in Intune | **MISSING** | **MISSING** | - |
-| 5.1.4 | Review and respond to Security Copilot agent recommendations to make management decisions | **MISSING** | **MISSING** | - |
-| 5.1.5 | Extend device compliance by using PowerShell | **MISSING** | **MISSING** | - |
+| 5.1.1 | Automate Intune management tasks by using PowerShell and Microsoft Graph | [doc](05-Optimize-Endpoint-Operations/docs/5.1.1-powershell-graph-automation.md) | [LAB-5.01](05-Optimize-Endpoint-Operations/labs/LAB-5.01-graph-powershell-automation.md) | [Q5.01](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q501), [Q5.02](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q502), [Q5.03](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q503), [Q5.04](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q504) |
+| 5.1.2 | Investigate threats identified by Security Copilot agents in Intune | [doc](05-Optimize-Endpoint-Operations/docs/5.1.2-security-copilot-agents-threat-investigation.md) | [LAB-5.02](05-Optimize-Endpoint-Operations/labs/LAB-5.02-security-copilot-agents.md) | [Q5.05](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q505), [Q5.06](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q506), [Q5.07](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q507) |
+| 5.1.3 | Analyze device performance by using Security Copilot agents in Intune | [doc](05-Optimize-Endpoint-Operations/docs/5.1.3-security-copilot-agents-device-performance.md) | [LAB-5.02](05-Optimize-Endpoint-Operations/labs/LAB-5.02-security-copilot-agents.md) | [Q5.08](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q508), [Q5.09](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q509) |
+| 5.1.4 | Review and respond to Security Copilot agent recommendations to make management decisions | [doc](05-Optimize-Endpoint-Operations/docs/5.1.4-security-copilot-agent-recommendations.md) | [LAB-5.02](05-Optimize-Endpoint-Operations/labs/LAB-5.02-security-copilot-agents.md) | [Q5.10](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q510), [Q5.11](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q511), [Q5.12](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q512) |
+| 5.1.5 | Extend device compliance by using PowerShell | [doc](05-Optimize-Endpoint-Operations/docs/5.1.5-custom-compliance-powershell.md) | [LAB-5.03](05-Optimize-Endpoint-Operations/labs/LAB-5.03-custom-compliance.md) | [Q5.13](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q513), [Q5.14](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q514), [Q5.15](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q515) |
 
 ### 5.2 Monitor and optimize health
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 5.2.1 | Implement reporting and data visibility in Microsoft Intune, including customizing reports and filters, using workbooks and dashboards, and exporting reporting data | **MISSING** | **MISSING** | - |
-| 5.2.2 | Monitor endpoint performance by using Endpoint Analytics, including Remediations, device health scores, and app startup performance | **MISSING** | **MISSING** | - |
-| 5.2.3 | Configure and manage remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs | **MISSING** | **MISSING** | - |
-| 5.2.4 | Analyze endpoint reliability and user experience scores, including startup performance, restart frequency, and application reliability metrics | **MISSING** | **MISSING** | - |
-| 5.2.5 | Monitor tenant health and Intune service communications, including reviewing service health dashboards, message center notifications, and establishing operational baselines | **MISSING** | **MISSING** | - |
-| 5.2.6 | Configure alerts and notifications for policy and compliance changes, including setting up alert rules for compliance drift, enrollment failures, and configuration conflicts | **MISSING** | **MISSING** | - |
+| 5.2.1 | Implement reporting and data visibility in Microsoft Intune, including customizing reports and filters, using workbooks and dashboards, and exporting reporting data | [doc](05-Optimize-Endpoint-Operations/docs/5.2.1-reporting-workbooks-export.md) | [LAB-5.04](05-Optimize-Endpoint-Operations/labs/LAB-5.04-reports-workbooks-export.md) | [Q5.16](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q516), [Q5.17](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q517) |
+| 5.2.2 | Monitor endpoint performance by using Endpoint Analytics, including Remediations, device health scores, and app startup performance | [doc](05-Optimize-Endpoint-Operations/docs/5.2.2-endpoint-analytics.md) | [LAB-5.05](05-Optimize-Endpoint-Operations/labs/LAB-5.05-endpoint-analytics-remediations.md) | [Q5.18](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q518), [Q5.19](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q519) |
+| 5.2.3 | Configure and manage remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs | [doc](05-Optimize-Endpoint-Operations/docs/5.2.3-remediation-scripts.md) | [LAB-5.05](05-Optimize-Endpoint-Operations/labs/LAB-5.05-endpoint-analytics-remediations.md) | [Q5.20](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q520), [Q5.21](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q521) |
+| 5.2.4 | Analyze endpoint reliability and user experience scores, including startup performance, restart frequency, and application reliability metrics | [doc](05-Optimize-Endpoint-Operations/docs/5.2.4-reliability-user-experience-scores.md) | [LAB-5.05](05-Optimize-Endpoint-Operations/labs/LAB-5.05-endpoint-analytics-remediations.md) | [Q5.22](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q522) |
+| 5.2.5 | Monitor tenant health and Intune service communications, including reviewing service health dashboards, message center notifications, and establishing operational baselines | [doc](05-Optimize-Endpoint-Operations/docs/5.2.5-service-health-message-center.md) | [LAB-5.06](05-Optimize-Endpoint-Operations/labs/LAB-5.06-service-health-alerts.md) | [Q5.23](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q523), [Q5.24](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q524) |
+| 5.2.6 | Configure alerts and notifications for policy and compliance changes, including setting up alert rules for compliance drift, enrollment failures, and configuration conflicts | [doc](05-Optimize-Endpoint-Operations/docs/5.2.6-alerts-notifications.md) | [LAB-5.06](05-Optimize-Endpoint-Operations/labs/LAB-5.06-service-health-alerts.md) | [Q5.25](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q525), [Q5.26](06-Practice-Questions/05-optimize-endpoint-operations-questions.md#q526) |

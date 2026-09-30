@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "DiskFreePct",
+      "Operator": "GreaterEquals",
+      "DataType": "Int64",
+      "Operand": 10,
+      "MoreInfoUrl": "https://contoso.sharepoint.com/sites/it/disk-space",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Your system drive is almost full.",
+          "Description": "Free up at least 10% of your system drive: empty the Recycle Bin and move large files to OneDrive."
+        }
+      ]
+    },
+    {
+      "SettingName": "BiosReleaseDate",
+      "Operator": "GreaterEquals",
+      "DataType": "DateTime",
+      "Operand": "2020-01-01T00:00:00",
+      "MoreInfoUrl": "https://contoso.sharepoint.com/sites/it/firmware",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Your device firmware is out of date.",
+          "Description": "Install the latest firmware update from your device manufacturer, or contact the IT helpdesk."
+        }
+      ]
+    },
+    {
+      "SettingName": "EdrSensorRunning",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://contoso.sharepoint.com/sites/it/defender",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "Microsoft Defender for Endpoint isn't running.",
+          "Description": "Restart your device. If this message remains, contact the IT helpdesk."
+        }
+      ]
+    }
+  ]
+}
