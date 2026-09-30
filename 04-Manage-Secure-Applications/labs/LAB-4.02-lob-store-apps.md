@@ -37,9 +37,10 @@ Add **Microsoft PowerToys** → *Installation behavior* User → assign **Availa
 
 ### Step 4 - Uninstall intent
 
-Edit the MSI LOB app assignments: keep the **Required** assignment, and add a device group that contains CONTOSO-LAB-03 under **Uninstall**.
+1. Edit the MSI LOB app assignments: keep the **Required** assignment, and add a device group that contains CONTOSO-LAB-03 under **Uninstall** as well. Sync CONTOSO-LAB-03.
+2. Now **exclude** that device group from the Required assignment (or remove it from the Required group) and sync again.
 
-**Expected result:** The app is removed from devices in the Uninstall group (Uninstall wins over Required).
+**Expected result:** In step 1 the app **stays installed** - when intents conflict, **Required wins over Uninstall**. In step 2 the Uninstall intent is the only one left, so the app is removed.
 
 ### Step 5 - Compare
 
@@ -64,7 +65,7 @@ Complete the table:
 |---|---|
 | Store app fails 0x8A15000F-type WinGet errors | Store/WinGet sources blocked by proxy, or app not available in the device's region |
 | MSI LOB fails in Autopilot | Mixing with Win32 in ESP - repackage as Win32 |
-| Available app not in Company Portal | Assigned to a device group (not supported for Available), or user not in group |
+| Available app not in Company Portal | LOB/Store app assigned as Available to a **device** group (only Win32 supports that on Windows), or user not in group |
 
 ## Cleanup / rollback
 
@@ -77,14 +78,14 @@ Add an **MSIX** package signed with a lab certificate and deploy the signing cer
 ## Knowledge check
 
 1. What replaced the Microsoft Store for Business in Intune?
-2. Which intent wins if a device gets Required and Uninstall?
+2. Which intent wins if a device gets both Required and Uninstall for the same app?
 3. Can you assign *Available* to device groups for Win32 apps?
 
 <details>
 <summary>Answers</summary>
 
 1. **Microsoft Store app (new)** (WinGet-backed).
-2. **Uninstall**.
-3. **No** - Available (enrolled devices) targets **user** groups.
+2. **Required** (Uninstall only beats Available).
+3. **Yes** - Win32 apps are an exception. Most other app types support *Available* only for **user** groups.
 
 </details>

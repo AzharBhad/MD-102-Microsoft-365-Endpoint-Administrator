@@ -71,7 +71,9 @@ When you add or rename a doc or lab, update **both** [`EXAM-OBJECTIVE-MAP.md`](E
 
 ```bash
 npx markdownlint-cli2 "**/*.md"
-python3 .github/scripts/check_coverage.py
+python3 .github/scripts/check_coverage.py --check-map --domains 1,2,3,4,5
+# PowerShell syntax check of every script
+pwsh -NoProfile -Command 'Get-ChildItem 08-Scripts -Recurse -Filter *.ps1 | ForEach-Object { $e = $null; [void][System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$null, [ref]$e); if ($e) { Write-Error "$($_.Name): $($e[0].Message)" } }'
 ```
 
 ## Commit messages
