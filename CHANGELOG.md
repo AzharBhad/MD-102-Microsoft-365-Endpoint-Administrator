@@ -49,3 +49,4 @@ Domain weightings are unchanged. Microsoft publishes the change log only at skil
 
 - Repository foundation: README, contribution guide, issue/PR templates, markdownlint and lychee link-check workflows.
 - `00-Getting-Started`: lab environment setup and licensing guide.
+- **Domain 1 - Prepare infrastructure for devices:** 18 docs (1.1.1-1.3.8), 13 labs (LAB-1.01-1.13), 26 practice questions, 3 Graph scripts, device identity diagram.

@@ -17,7 +17,7 @@ Study notes, hands-on labs, original practice questions and PowerShell/Microsoft
 
 | # | Domain | Weight |
 |---|---|---|
-| 1 | Prepare infrastructure for devices | 20-25% |
+| 1 | [Prepare infrastructure for devices](01-Prepare-Infrastructure/README.md) | 20-25% |
 | 2 | Manage and maintain devices | 25-30% |
 | 3 | Protect devices | 15-20% |
 | 4 | Manage and secure applications | 15-20% |
@@ -29,6 +29,7 @@ Folder numbering follows Microsoft's order in the study guide, where *Protect de
 
 1. [00-Getting-Started](00-Getting-Started/README.md) - lab environment and licensing.
 2. [EXAM-OBJECTIVE-MAP.md](EXAM-OBJECTIVE-MAP.md) - every objective → doc → lab → questions.
+3. [06-Practice-Questions](06-Practice-Questions/01-prepare-infrastructure-questions.md) - original scenario questions per domain.
 
 ## Author
 

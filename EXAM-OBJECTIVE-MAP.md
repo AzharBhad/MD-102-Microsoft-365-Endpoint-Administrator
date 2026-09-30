@@ -8,9 +8,9 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 | Coverage | Count |
 |---|---|
 | Objectives | 83 |
-| With a doc | 0 |
-| With a lab | 0 |
-| With practice questions | 0 |
+| With a doc | 18 |
+| With a lab | 18 |
+| With practice questions | 18 |
 
 ## Domain 1 - Prepare infrastructure for devices (20–25%)
 
@@ -18,34 +18,34 @@ Every objective maps to a doc, at least one hands-on lab, and original practice 
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 1.1.1 | Choose an appropriate device join type, including considerations such as device registration and Microsoft Entra join | **MISSING** | **MISSING** | - |
-| 1.1.2 | Join devices to Microsoft Entra ID | **MISSING** | **MISSING** | - |
-| 1.1.3 | Register devices to Microsoft Entra ID | **MISSING** | **MISSING** | - |
-| 1.1.4 | Plan and implement groups for devices in Microsoft Entra ID, including dynamic group membership rules | **MISSING** | **MISSING** | - |
+| 1.1.1 | Choose an appropriate device join type, including considerations such as device registration and Microsoft Entra join | [doc](01-Prepare-Infrastructure/docs/1.1.1-choose-device-join-type.md) | [LAB-1.03](01-Prepare-Infrastructure/labs/LAB-1.03-register-byod-compare-join-types.md) | [Q1.01](06-Practice-Questions/01-prepare-infrastructure-questions.md#q101) |
+| 1.1.2 | Join devices to Microsoft Entra ID | [doc](01-Prepare-Infrastructure/docs/1.1.2-join-devices-to-entra-id.md) | [LAB-1.02](01-Prepare-Infrastructure/labs/LAB-1.02-entra-join-automatic-enrollment.md) | [Q1.02](06-Practice-Questions/01-prepare-infrastructure-questions.md#q102) |
+| 1.1.3 | Register devices to Microsoft Entra ID | [doc](01-Prepare-Infrastructure/docs/1.1.3-register-devices-to-entra-id.md) | [LAB-1.03](01-Prepare-Infrastructure/labs/LAB-1.03-register-byod-compare-join-types.md) | [Q1.03](06-Practice-Questions/01-prepare-infrastructure-questions.md#q103) |
+| 1.1.4 | Plan and implement groups for devices in Microsoft Entra ID, including dynamic group membership rules | [doc](01-Prepare-Infrastructure/docs/1.1.4-device-groups-dynamic-membership.md) | [LAB-1.04](01-Prepare-Infrastructure/labs/LAB-1.04-dynamic-device-groups.md) | [Q1.04](06-Practice-Questions/01-prepare-infrastructure-questions.md#q104), [Q1.05](06-Practice-Questions/01-prepare-infrastructure-questions.md#q105) |
 
 ### 1.2 Enroll devices to Microsoft Intune
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 1.2.1 | Configure enrollment settings in Microsoft Intune | **MISSING** | **MISSING** | - |
-| 1.2.2 | Configure automatic enrollment for Windows | **MISSING** | **MISSING** | - |
-| 1.2.3 | Configure personal enrollment for macOS, iOS, iPadOS | **MISSING** | **MISSING** | - |
-| 1.2.4 | Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate-owned devices with a work profile, enrollment restrictions and troubleshooting enrollment failures | **MISSING** | **MISSING** | - |
-| 1.2.5 | Configure corporate enrollment for macOS and iOS devices by integrating Intune with Apple Business Manager | **MISSING** | **MISSING** | - |
-| 1.2.6 | Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google zero-touch enrollment | **MISSING** | **MISSING** | - |
+| 1.2.1 | Configure enrollment settings in Microsoft Intune | [doc](01-Prepare-Infrastructure/docs/1.2.1-intune-enrollment-settings.md) | [LAB-1.01](01-Prepare-Infrastructure/labs/LAB-1.01-tenant-baseline-enrollment-settings.md) | [Q1.06](06-Practice-Questions/01-prepare-infrastructure-questions.md#q106), [Q1.07](06-Practice-Questions/01-prepare-infrastructure-questions.md#q107) |
+| 1.2.2 | Configure automatic enrollment for Windows | [doc](01-Prepare-Infrastructure/docs/1.2.2-windows-automatic-enrollment.md) | [LAB-1.02](01-Prepare-Infrastructure/labs/LAB-1.02-entra-join-automatic-enrollment.md) | [Q1.08](06-Practice-Questions/01-prepare-infrastructure-questions.md#q108), [Q1.09](06-Practice-Questions/01-prepare-infrastructure-questions.md#q109) |
+| 1.2.3 | Configure personal enrollment for macOS, iOS, iPadOS | [doc](01-Prepare-Infrastructure/docs/1.2.3-apple-personal-enrollment.md) | [LAB-1.05](01-Prepare-Infrastructure/labs/LAB-1.05-apple-personal-enrollment.md) | [Q1.10](06-Practice-Questions/01-prepare-infrastructure-questions.md#q110), [Q1.11](06-Practice-Questions/01-prepare-infrastructure-questions.md#q111) |
+| 1.2.4 | Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate-owned devices with a work profile, enrollment restrictions and troubleshooting enrollment failures | [doc](01-Prepare-Infrastructure/docs/1.2.4-android-enterprise-enrollment-profiles.md) | [LAB-1.06](01-Prepare-Infrastructure/labs/LAB-1.06-android-enterprise-enrollment-profiles.md) | [Q1.12](06-Practice-Questions/01-prepare-infrastructure-questions.md#q112), [Q1.13](06-Practice-Questions/01-prepare-infrastructure-questions.md#q113) |
+| 1.2.5 | Configure corporate enrollment for macOS and iOS devices by integrating Intune with Apple Business Manager | [doc](01-Prepare-Infrastructure/docs/1.2.5-apple-business-manager-integration.md) | [LAB-1.07](01-Prepare-Infrastructure/labs/LAB-1.07-apple-business-manager-ade.md) | [Q1.14](06-Practice-Questions/01-prepare-infrastructure-questions.md#q114) |
+| 1.2.6 | Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google zero-touch enrollment | [doc](01-Prepare-Infrastructure/docs/1.2.6-knox-mobile-enrollment-zero-touch.md) | [LAB-1.08](01-Prepare-Infrastructure/labs/LAB-1.08-knox-zero-touch-enrollment.md) | [Q1.15](06-Practice-Questions/01-prepare-infrastructure-questions.md#q115) |
 
 ### 1.3 Implement identity and compliance
 
 | ID | Objective (verbatim) | Doc | Lab(s) | Questions |
 |---|---|---|---|---|
-| 1.3.1 | Manage built-in and custom roles for Intune and Windows 365, including role assignments | **MISSING** | **MISSING** | - |
-| 1.3.2 | Configure scope tags and scoped administration for multi-admin environments | **MISSING** | **MISSING** | - |
-| 1.3.3 | Implement and manage multi-admin approval | **MISSING** | **MISSING** | - |
-| 1.3.4 | Implement compliance policies for all supported device platforms by using Intune | **MISSING** | **MISSING** | - |
-| 1.3.5 | Implement Microsoft Entra Conditional Access policies that require a compliance status | **MISSING** | **MISSING** | - |
-| 1.3.6 | Configure Windows Hello for Business by using Intune | **MISSING** | **MISSING** | - |
-| 1.3.7 | Implement and manage Windows Local Administrator Password Solution (Windows LAPS) by using Microsoft Intune and Microsoft Entra ID | **MISSING** | **MISSING** | - |
-| 1.3.8 | Manage the membership of local groups on Windows devices by using Intune | **MISSING** | **MISSING** | - |
+| 1.3.1 | Manage built-in and custom roles for Intune and Windows 365, including role assignments | [doc](01-Prepare-Infrastructure/docs/1.3.1-intune-windows365-rbac.md) | [LAB-1.09](01-Prepare-Infrastructure/labs/LAB-1.09-custom-roles-scope-tags.md) | [Q1.16](06-Practice-Questions/01-prepare-infrastructure-questions.md#q116) |
+| 1.3.2 | Configure scope tags and scoped administration for multi-admin environments | [doc](01-Prepare-Infrastructure/docs/1.3.2-scope-tags-scoped-administration.md) | [LAB-1.09](01-Prepare-Infrastructure/labs/LAB-1.09-custom-roles-scope-tags.md) | [Q1.16](06-Practice-Questions/01-prepare-infrastructure-questions.md#q116), [Q1.17](06-Practice-Questions/01-prepare-infrastructure-questions.md#q117) |
+| 1.3.3 | Implement and manage multi-admin approval | [doc](01-Prepare-Infrastructure/docs/1.3.3-multi-admin-approval.md) | [LAB-1.10](01-Prepare-Infrastructure/labs/LAB-1.10-multi-admin-approval.md) | [Q1.18](06-Practice-Questions/01-prepare-infrastructure-questions.md#q118), [Q1.19](06-Practice-Questions/01-prepare-infrastructure-questions.md#q119) |
+| 1.3.4 | Implement compliance policies for all supported device platforms by using Intune | [doc](01-Prepare-Infrastructure/docs/1.3.4-compliance-policies.md) | [LAB-1.11](01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md) | [Q1.20](06-Practice-Questions/01-prepare-infrastructure-questions.md#q120), [Q1.21](06-Practice-Questions/01-prepare-infrastructure-questions.md#q121) |
+| 1.3.5 | Implement Microsoft Entra Conditional Access policies that require a compliance status | [doc](01-Prepare-Infrastructure/docs/1.3.5-conditional-access-require-compliance.md) | [LAB-1.11](01-Prepare-Infrastructure/labs/LAB-1.11-compliance-conditional-access.md) | [Q1.21](06-Practice-Questions/01-prepare-infrastructure-questions.md#q121), [Q1.22](06-Practice-Questions/01-prepare-infrastructure-questions.md#q122) |
+| 1.3.6 | Configure Windows Hello for Business by using Intune | [doc](01-Prepare-Infrastructure/docs/1.3.6-windows-hello-for-business.md) | [LAB-1.12](01-Prepare-Infrastructure/labs/LAB-1.12-windows-hello-for-business.md) | [Q1.23](06-Practice-Questions/01-prepare-infrastructure-questions.md#q123) |
+| 1.3.7 | Implement and manage Windows Local Administrator Password Solution (Windows LAPS) by using Microsoft Intune and Microsoft Entra ID | [doc](01-Prepare-Infrastructure/docs/1.3.7-windows-laps.md) | [LAB-1.13](01-Prepare-Infrastructure/labs/LAB-1.13-windows-laps-local-groups.md) | [Q1.24](06-Practice-Questions/01-prepare-infrastructure-questions.md#q124), [Q1.25](06-Practice-Questions/01-prepare-infrastructure-questions.md#q125) |
+| 1.3.8 | Manage the membership of local groups on Windows devices by using Intune | [doc](01-Prepare-Infrastructure/docs/1.3.8-local-group-membership.md) | [LAB-1.13](01-Prepare-Infrastructure/labs/LAB-1.13-windows-laps-local-groups.md) | [Q1.26](06-Practice-Questions/01-prepare-infrastructure-questions.md#q126) |
 
 ## Domain 2 - Manage and maintain devices (25–30%)
 

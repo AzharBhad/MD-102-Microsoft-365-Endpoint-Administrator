@@ -14,8 +14,8 @@
     "MD041": false,
     // Emphasis used as a pseudo-heading is intentional in some tip boxes
     "MD036": false,
-    // Ordered lists may use sequential numbers
-    "MD029": { "style": "ordered" },
+    // Numbered steps continue across tables/code blocks (3., 4. after a table)
+    "MD029": false,
     // Table column style is not enforced
     "MD060": false
   },
